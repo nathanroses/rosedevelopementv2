@@ -51,6 +51,8 @@ import heroImg from '~/assets/images/JET.png';
 import hero2Img from '~/assets/images/hero2.jpg';
 import gasImg from '~/assets/images/box.png'; 
 import SnugbugLogo from '~/assets/images/snugbuglogo.png';
+import ZeroLogo from '~/assets/images/zero.png';
+import TherosaLogo from '~/assets/images/therosa.png';
 import MonkeyCeo from '~/assets/images/Monkey 1.png';
 import MonkeyLegal from '~/assets/images/Monkey 2.png';
 import MonkeyMoney from '~/assets/images/Monkey 3.png';
@@ -188,8 +190,8 @@ export const hero2Data: HeroProps = {
 export const socialProofData: SocialProofProps = {
   images: [
     {
-      link: 'https://rosedevelopement.org/',
-      src: SnugbugLogo,
+      link: 'https://therosa.org/',
+      src: TherosaLogo,
       alt: 'None',
     },
     {
@@ -199,12 +201,12 @@ export const socialProofData: SocialProofProps = {
     },
     {
       link: 'https://tailwindcss.com/',
-      src: SnugbugLogo,
+      src: ZeroLogo,
       alt: 'Snugbug',
     },
     {
       link: 'https://www.typescriptlang.org/',
-      src: SnugbugLogo,
+      src: ZeroLogo,
       alt: 'None',
     },
   ],
