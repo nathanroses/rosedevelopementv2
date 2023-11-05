@@ -591,34 +591,34 @@ export const featuresData3: FeaturesProps = {
   },
   items: [
     {
-      title: 'Next.Js + Tailwind CSS Integration',
-      description: 'Nullam non sodales massa. Ut justo neque, elementum et vehicula vel, pellentesque non orci.',
+      title: 'Strategic Leadership',
+      description: 'Our team of industry experts ensures that every business under Rose Development is steered with a visionary approach, aligning with the latest market trends and innovations.',
       icon: IconBrandTailwind,
     },
     {
-      title: 'Ready-to-use Components',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      title: 'Operational Excellence',
+      description: 'We streamline processes, optimize resources, and employ best practices to guarantee that our managed companies are always performing at their peak.',
       icon: IconComponents,
     },
     {
-      title: 'Best Practices',
-      description: 'Morbi sit amet arcu vitae metus molestie auctor sit amet in risus. Sed vel lacinia purus.',
+      title: 'Growth Catalyst',
+      description: 'With our vast network and strategic partnerships, businesses under our helm experience accelerated growth and expanded market reach.',
       icon: IconListCheck,
     },
     {
-      title: 'Excellent Page Speed',
-      description: 'Phasellus id cursus urna. Nullam feugiat tellus sed euismod venenatis.',
+      title: 'Integrated Solutions',
+      description: 'From finance to human resources, marketing to supply chain management, we offer integrated solutions that cover every facet of running a successful enterprise.',
       icon: IconRocket,
     },
     {
-      title: 'Search Engine Optimization (SEO)',
+      title: 'Innovation Hub',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.',
       icon: IconArrowsRightLeft,
     },
     {
-      title: 'Open to new ideas and contributions',
-      description: 'Maecenas urna augue, commodo vitae lectus euismod, tempor aliquam arcu.',
+      title: 'End-to-End Management',
+      description: 'Our Hands-on Approach End-to-End Management means were with you every step of the way. From conceptualization to execution.',
       icon: IconBulb,
     },
   ],
@@ -1065,20 +1065,20 @@ export const comparisonData: ComparisonProps = {
 export const statsData: StatsProps = {
   items: [
     {
-      title: 13269,
-      description: 'Downloads',
+      title: 50,
+      description: 'Partner Companies',
     },
     {
-      title: 24.8,
-      description: 'Stars',
+      title: 10,
+      description: 'Countries Served',
     },
     {
-      title: 1767.77,
-      description: 'Forks',
+      title: 10,
+      description: 'Products',
     },
     {
-      title: 484000,
-      description: 'Users',
+      title: 78439,
+      description: 'Invested Capital',
     },
   ],
 };
