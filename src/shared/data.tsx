@@ -1094,16 +1094,16 @@ export const statsData: StatsProps = {
 // Contact data
 export const contactData: ContactProps = {
   header: {
-    title: 'Get in Touch',
-    subtitle: 'In hac habitasse platea dictumst',
+    title: 'Connect with Us',
+    subtitle: 'At Rose Development, we are ready to assist you',
     highlight: 'Contact',
   },
   content:
-    'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis nec ipsum orci. Ut scelerisque sagittis ante, ac tincidunt sem venenatis ut.',
+    'Rose Development is dedicated to bringing your visions to life with innovative solutions and exceptional service.',
   items: [
     {
       title: 'Our Address',
-      description: ['1230 Maecenas Street Donec Road', 'New York, EEUU'],
+      description: ['8 The Green', 'Dover Delaware, United States'],
       icon: IconMapPin,
     },
     {
