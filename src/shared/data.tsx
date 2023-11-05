@@ -48,7 +48,7 @@ import {
 import contentOne from '~/assets/images/iphone.png';
 import contentTwo from '~/assets/images/content3.png';
 import heroImg from '~/assets/images/JET.png';
-import hero2Img from '~/assets/images/hero2.jpg';
+import NycstockImg from '~/assets/images/nycstock.png';
 import gasImg from '~/assets/images/box.png'; 
 import SnugbugLogo from '~/assets/images/snugbuglogo.png';
 import ZeroLogo from '~/assets/images/zero.png';
@@ -93,10 +93,6 @@ export const headerData: HeaderProps = {
           href: '/pricing',
         },
         {
-          label: 'Contact us',
-          href: '/contact',
-        },
-        {
           label: 'FAQs',
           href: '/faqs',
         },
@@ -110,15 +106,11 @@ export const headerData: HeaderProps = {
         },
       ],
     },
-    {
-      label: 'Contact',
-      href: '/contact',
-    },
   ],
   actions: [
     {
-      text: 'Download',
-      href: 'https://github.com/onwidget/tailnext',
+      text: 'Contact',
+      href: '/contact',
       targetBlank: true,
       btnType: 'primary',
     },
@@ -167,11 +159,11 @@ export const heroData: HeroProps = {
 
 // Hero2 data
 export const hero2Data: HeroProps = {
-  title: 'Great companies are made by great people',
+  title: 'Where Visionaries Thrive',
   subtitle:
-    'Welcome to a place where innovation meets ambition. As a leading conglomerate, our essence is rooted in pioneering new pathways in the business landscape. We pride ourselves on housing a diverse portfolio of developing companies, each contributing unique products and solutions to the global market.',
+    'In the business of building legacies, our collective of companies stands testament to the belief that diversity fuels innovation. We champion entrepreneurial spirit, fostering an environment where ambition transforms into achievement. Great companies are born from great people, and we cultivate excellence with every venture under our wing.',
   callToAction: {
-    text: 'View jobs',
+    text: 'Trusted Partners',
     href: 'https://www.linkedin.com/',
     targetBlank: true,
     btnType: 'primary',
@@ -181,7 +173,7 @@ export const hero2Data: HeroProps = {
     href: '/contact',
   },
   image: {
-    src: hero2Img,
+    src: NycstockImg,
     alt: 'Hero TailNext',
   },
 };
@@ -217,7 +209,7 @@ export const faqsData: FAQsProps = {
   header: {
     title: 'Frequently Asked Questions',
     subtitle:
-      'Duis turpis dui, fringilla mattis sem nec, fringilla euismod neque. Morbi tincidunt lacus nec tortor scelerisque pulvinar.',
+      'We collected our most asked questions to give you the best understanding at what we are good at!',
     highlight: 'FAQS',
   },
   items: [
