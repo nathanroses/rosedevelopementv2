@@ -50,10 +50,7 @@ import contentTwo from '~/assets/images/content3.png';
 import heroImg from '~/assets/images/JET.png';
 import hero2Img from '~/assets/images/hero2.jpg';
 import gasImg from '~/assets/images/box.png'; 
-import theleadingedgeLogo from '~/assets/images/tstyle.png';
-import rosedevelopementLogo from '~/assets/images/ode.png';
-import rosebudLogo from '~/assets/images/rosebud.png';
-import BloomLogo from '~/assets/images/stonecloud.png';
+import SnugbugLogo from '~/assets/images/snugbuglogo.png';
 import MonkeyCeo from '~/assets/images/Monkey 1.png';
 import MonkeyLegal from '~/assets/images/Monkey 2.png';
 import MonkeyMoney from '~/assets/images/Monkey 3.png';
@@ -192,23 +189,23 @@ export const socialProofData: SocialProofProps = {
   images: [
     {
       link: 'https://rosedevelopement.org/',
-      src: rosedevelopementLogo,
-      alt: 'Rose Developement Logo',
+      src: SnugbugLogo
+      alt: 'None',
     },
     {
       link: 'https://theleadingedgeinc.com/',
-      src: theleadingedgeLogo,
-      alt: 'The Leading Edge Logo',
+      src: SnugbugLogo,
+      alt: 'None',
     },
     {
       link: 'https://tailwindcss.com/',
-      src: rosebudLogo,
-      alt: 'Rosebud Logo',
+      src: SnugbugLogo,
+      alt: 'Snugbug',
     },
     {
       link: 'https://www.typescriptlang.org/',
-      src: BloomLogo,
-      alt: 'Bloom Logo',
+      src: SnugbugLogo,
+      alt: 'None',
     },
   ],
 };
