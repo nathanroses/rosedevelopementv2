@@ -189,7 +189,7 @@ export const socialProofData: SocialProofProps = {
   images: [
     {
       link: 'https://rosedevelopement.org/',
-      src: SnugbugLogo
+      src: SnugbugLogo,
       alt: 'None',
     },
     {
