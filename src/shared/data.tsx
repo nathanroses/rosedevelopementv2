@@ -38,7 +38,6 @@ import {
   PricingProps,
   SocialProofProps,
   StatsProps,
-  StepsProps,
   TeamProps,
   TestimonialProps,
 } from './types';
@@ -425,26 +424,26 @@ export const faqs4Data: FAQsProps = {
 export const callToActionData: CallToActionProps = {
   title: 'Rose Developement',
   subtitle:
-    'Aliquam sodales porttitor lacus ac tristique. Etiam posuere elit at leo feugiat sodales. Sed ac mauris quis sem tempor condimentum non at metus.',
+    'Dive deeper into our portfolio of companies and discover our comprehensive services. Download our brochure to learn more about how we can elevate your business.',
   callToAction: {
-    text: 'Get template',
-    href: 'https://github.com/onwidget/tailnext',
+    text: 'Download Brochure',
+    href: 'https://img.freepik.com/free-photo/abstract-surface-textures-white-concrete-stone-wall_74190-8189.jpg',
     icon: IconDownload,
   },
   items: [
     {
-      title: 'Get template',
-      description: 'Aliquam sodales est lectus, quis.',
-      href: 'https://github.com/onwidget/tailnext',
+      title: 'Download Brochure',
+      description: 'Gain insights into our expansive network of ventures and partnerships.',
+      href: 'https://img.freepik.com/free-photo/abstract-surface-textures-white-concrete-stone-wall_74190-8189.jpg',
     },
     {
       title: 'Learn more',
-      description: 'Class aptent taciti sociosqu ad litora torquent per conubia.',
+      description: 'Discover our unique approach to fostering businesses.',
       href: '/',
     },
     {
       title: 'Subscribe',
-      description: 'Morbi orci nunc, euismod ac dui id, convallis.',
+      description: 'Stay updated with our latest business insights.',
       form: {
         icon: IconMail,
         input: {
