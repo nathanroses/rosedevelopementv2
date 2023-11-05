@@ -1140,9 +1140,9 @@ export const contactData = {
       placeholder: 'Write your message...',
     },
     btn: {
-      title: 'Submit Inquiry',
-      type: 'submit',
-    },
+      title: 'Send Message',
+      type: 'submit', // Make sure this is exactly 'submit', 'button', or 'reset'
+    },    
   },
 };
 
