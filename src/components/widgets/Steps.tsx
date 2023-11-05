@@ -18,15 +18,15 @@ const Steps = () => {
                 <div className="mr-4 flex flex-col items-center">
                   <div>
                     {index !== items.length - 1 ? (
-                      <div className="flex h-10 w-10 items-center justify-center rounded-full border-2 border-primary-900">
+                      <div className="flex h-10 w-10 items-center justify-center rounded-full border-2 border-purple-600">
                         {Icon ? (
-                          <Icon className="h-6 w-6 text-primary-800 dark:text-slate-200" />
+                          <Icon className="h-6 w-6 text-purple-800 dark:text-slate-200" />
                         ) : (
-                          <IconArrowDown className="h-6 w-6 text-primary-800 dark:text-slate-200" />
+                          <IconArrowDown className="h-6 w-6 text-purple-800 dark:text-slate-200" />
                         )}
                       </div>
                     ) : (
-                      <div className="flex h-10 w-10 items-center justify-center rounded-full border-2 border-primary-900 bg-primary-900">
+                      <div className="flex h-10 w-10 items-center justify-center rounded-full border-2 border-purple-900 bg-purple-900">
                         {Icon ? (
                           <Icon className="h-6 w-6 text-white dark:text-slate-200" />
                         ) : (
@@ -41,7 +41,7 @@ const Steps = () => {
                   {title && <p className="mb-2 text-xl font-bold text-gray-900 dark:text-slate-300">{title}</p>}
                   {description && <p className="text-gray-600 dark:text-slate-400">{description}</p>}
                 </div>
-              </div>
+              </div> 
             ))}
         </div>
         <div className="relative">

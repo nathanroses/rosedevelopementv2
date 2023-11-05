@@ -17,7 +17,7 @@ const Testimonial = () => {
                 key={`item-testimonial-${index}`}
                 className="col-span-3 flex sm:col-span-1 md:col-span-1 lg:col-span-1 xl:col-span-1"
               >
-                <div className="flex-flow card flex border-b-[3px] border-transparent text-center hover:border-primary-600 hover:shadow-lg hover:transition hover:duration-100">
+                <div className="flex-flow card flex border-b-[3px] border-transparent text-center hover:border-purple-600 hover:shadow-lg hover:transition hover:duration-100">
                   <a
                     href={href}
                     target="_blank"
@@ -43,7 +43,7 @@ const Testimonial = () => {
                     {comment && (
                       <p className="m-b-30 font-light dark:text-slate-400">{`"${comment.slice(0, 150)}..."`}</p>
                     )}
-                    {href && Icon && <Icon className="mx-auto mt-4 h-6 w-6 text-primary-600 dark:text-slate-200" />}
+                    {href && Icon && <Icon className="mx-auto mt-4 h-6 w-6 text-purple-600 dark:text-slate-200" />}
                   </a>
                 </div>
               </div>
