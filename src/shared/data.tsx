@@ -1108,12 +1108,12 @@ export const contactData: ContactProps = {
     },
     {
       title: 'Contact',
-      description: ['Mobile: +1 (123) 456-7890', 'Mail: tailnext@gmail.com'],
+      description: ['Phone: 1-800-ROSE (7673)', 'Email: support@rosedevelopment.com'],
       icon: IconPhoneCall,
     },
     {
       title: 'Working hours',
-      description: ['Monday - Friday: 08:00 - 17:00', 'Saturday & Sunday: 08:00 - 12:00'],
+      description: ['Monday - Friday: 08:00 - 3:00', 'Saturday: 08:00 - 12:00'],
       icon: IconClock,
     },
   ],
@@ -1149,33 +1149,33 @@ export const contactData: ContactProps = {
 // Contact2 data
 export const contact2Data: ContactProps = {
   header: {
-    title: 'Get in Touch',
-    subtitle: 'In hac habitasse platea dictumst',
+    title: 'Connect with Us',
+    subtitle: 'Rose Development is here for you',
     highlight: 'Contact',
   },
   content:
-    'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis nec ipsum orci. Ut scelerisque sagittis ante, ac tincidunt sem venenatis ut.',
+    'Whether you need technical support or have questions about our services, our team is here to provide the answers you need.',
   items: [
     {
       title: 'Our Address',
-      description: ['1230 Maecenas Street Donec Road', 'New York, EEUU'],
+      description: ['8 The Green', 'Dover, Delaware, United States'],
       icon: IconMapPin,
     },
     {
       title: 'Contact',
-      description: ['Mobile: +1 (123) 456-7890', 'Mail: tailnext@gmail.com'],
+      description: ['Phone: 1-800-ROSE (7673)', 'Email: support@rosedevelopment.com'],
       icon: IconPhoneCall,
     },
     {
       title: 'Working hours',
-      description: ['Monday - Friday: 08:00 - 17:00', 'Saturday & Sunday: 08:00 - 12:00'],
+      description: ['Monday - Friday: 08:00 - 3:00', 'Saturday: 08:00 - 12:00'],
       icon: IconClock,
     },
   ],
   form: {
     title: 'Ready to Get Started?',
     description:
-      'Mauris consequat, urna vel varius auctor, enim risus ornare felis, at hendrerit erat justo eu justo. Curabitur sagittis efficitur aliquam. Duis eget porttitor lectus, vel pharetra ex. Nam volutpat nibh ut porta egestas.',
+      'Join us on a journey where your ideas take digital form. Rose Development is where your vision becomes reality.',
     inputs: [
       {
         type: 'text',
