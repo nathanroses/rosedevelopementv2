@@ -1092,33 +1092,33 @@ export const statsData: StatsProps = {
 };
 
 // Contact data
-export const contactData = {
+export const contactData: ContactProps = {
   header: {
-    title: 'Connect with Rose Development',
-    subtitle: 'Your partner in innovative development solutions.',
-    highlight: 'Reach Out',
+    title: 'Get in Touch',
+    subtitle: 'In hac habitasse platea dictumst',
+    highlight: 'Contact',
   },
   content:
-    'At Rose Development, we empower your business with cutting-edge technology and bespoke software solutions.',
+    'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis nec ipsum orci. Ut scelerisque sagittis ante, ac tincidunt sem venenatis ut.',
   items: [
     {
       title: 'Our Address',
-      description: ['8 The Green', 'Dover, Delaware, United States'],
+      description: ['1230 Maecenas Street Donec Road', 'New York, EEUU'],
       icon: IconMapPin,
     },
     {
-      title: 'Reach Out',
-      description: ['Phone: 1-800-ROSE (7673)', 'Email: contact@rosedevelopment.com'],
+      title: 'Contact',
+      description: ['Mobile: +1 (123) 456-7890', 'Mail: tailnext@gmail.com'],
       icon: IconPhoneCall,
     },
     {
-      title: 'Business Hours',
-      description: ['Monday - Friday: 09:00 - 17:00', 'Saturday: 10:00 - 14:00'],
+      title: 'Working hours',
+      description: ['Monday - Friday: 08:00 - 17:00', 'Saturday & Sunday: 08:00 - 12:00'],
       icon: IconClock,
     },
   ],
   form: {
-    title: 'Start a Project with Us',
+    title: 'Ready to Get Started?',
     inputs: [
       {
         type: 'text',
@@ -1141,41 +1141,41 @@ export const contactData = {
     },
     btn: {
       title: 'Send Message',
-      type: 'submit', // Make sure this is exactly 'submit', 'button', or 'reset'
-    },    
+      type: 'submit',
+    },
   },
 };
 
 // Contact2 data
-export const contact2Data = {
+export const contact2Data: ContactProps = {
   header: {
-    title: 'Connect with Rose Development',
-    subtitle: 'We are here to listen and solve your challenges.',
-    highlight: 'Reach Out',
+    title: 'Get in Touch',
+    subtitle: 'In hac habitasse platea dictumst',
+    highlight: 'Contact',
   },
   content:
-    'From initial consultation to deployment, our team at Rose Development ensures a smooth journey and reliable support.',
+    'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis nec ipsum orci. Ut scelerisque sagittis ante, ac tincidunt sem venenatis ut.',
   items: [
     {
       title: 'Our Address',
-      description: ['8 The Green', 'Dover, Delaware, United States'],
+      description: ['1230 Maecenas Street Donec Road', 'New York, EEUU'],
       icon: IconMapPin,
     },
     {
-      title: 'Reach Out',
-      description: ['Phone: 1-800-ROSE (7673)', 'Email: contact@rosedevelopment.com'],
+      title: 'Contact',
+      description: ['Mobile: +1 (123) 456-7890', 'Mail: tailnext@gmail.com'],
       icon: IconPhoneCall,
     },
     {
-      title: 'Business Hours',
-      description: ['Monday - Friday: 09:00 - 17:00', 'Saturday: 10:00 - 14:00'],
+      title: 'Working hours',
+      description: ['Monday - Friday: 08:00 - 17:00', 'Saturday & Sunday: 08:00 - 12:00'],
       icon: IconClock,
     },
   ],
   form: {
-    title: 'How Can We Assist You?',
+    title: 'Ready to Get Started?',
     description:
-      'Reach out to discuss your next project or get support for your existing ones. Our experts are ready to help.',
+      'Mauris consequat, urna vel varius auctor, enim risus ornare felis, at hendrerit erat justo eu justo. Curabitur sagittis efficitur aliquam. Duis eget porttitor lectus, vel pharetra ex. Nam volutpat nibh ut porta egestas.',
     inputs: [
       {
         type: 'text',
@@ -1207,10 +1207,10 @@ export const contact2Data = {
           label: 'Technical help',
         },
         {
-          label: 'Sales questions',
+          label: 'Claims',
         },
         {
-          label: 'Other',
+          label: 'Others',
         },
       ],
     },
@@ -1219,16 +1219,16 @@ export const contact2Data = {
       rows: 5,
       label: 'How can we help you?',
       name: 'textarea',
-      placeholder: 'Write your message here...',
+      placeholder: 'Write your message...',
     },
     checkboxes: [
       {
-        label: 'I have read the privacy policy.',
-        value: 'privacy',
+        label: 'Have you read our privacy policy?',
+        value: '',
       },
       {
-        label: 'Sign me up for monthly updates.',
-        value: 'updates',
+        label: 'Do you want to receive monthly updates by email?',
+        value: '',
       },
     ],
     btn: {
@@ -1237,8 +1237,6 @@ export const contact2Data = {
     },
   },
 };
-
-
 
 // Footer data
 export const footerData: FooterProps = {
