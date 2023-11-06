@@ -43,9 +43,9 @@ const Collapse = ({ items, classCollapseItem, iconUp, iconDown }: CollapseProps)
                   iconDown
                 )
               ) : activeIndex === index ? (
-                <IconChevronUp className="h-6 w-6 text-primary-600 dark:text-slate-200" />
+                <IconChevronUp className="h-6 w-6 text-purple-600 dark:text-slate-200" />
               ) : (
-                <IconChevronDown className="h-6 w-6 text-primary-600 dark:text-slate-200" />
+                <IconChevronDown className="h-6 w-6 text-purple-600 dark:text-slate-200" />
               )}
             </div>
             {activeIndex === index && (

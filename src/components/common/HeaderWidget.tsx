@@ -12,7 +12,7 @@ const HeaderWidget = ({ header, titleClassname }: HeaderWidgetProps) => {
           } md:mx-auto md:mb-12`}
         >
           {highlight && (
-            <p className="text-base font-semibold uppercase tracking-wide text-primary-600 dark:text-primary-200">
+            <p className="text-base font-semibold uppercase tracking-wide text-purple-600 dark:text-primary-200">
               {highlight}
             </p>
           )}

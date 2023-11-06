@@ -41,9 +41,9 @@ const Dropdown = ({ options, activeTab, onActiveTabSelected, iconUp, iconDown }:
             iconUp
           )
         ) : isDropdownOpen === false ? (
-          <IconChevronDown className="h-6 w-6 text-primary-600 dark:text-slate-200" />
+          <IconChevronDown className="h-6 w-6 text-purple-600 dark:text-slate-200" />
         ) : (
-          <IconChevronUp className="h-6 w-6 text-primary-600 dark:text-slate-200" />
+          <IconChevronUp className="h-6 w-6 text-purple-600 dark:text-slate-200" />
         )}
       </div>
       {isDropdownOpen && (
@@ -53,7 +53,7 @@ const Dropdown = ({ options, activeTab, onActiveTabSelected, iconUp, iconDown }:
               key={`option-${index}`}
               onClick={() => onOptionSelected(option, index)}
               className={`flex cursor-pointer items-center bg-white p-3 text-lg dark:bg-slate-900 ${
-                activeTab !== index ? 'pl-10' : 'text-primary-600 dark:text-primary-200'
+                activeTab !== index ? 'pl-10' : 'text-purple-600 dark:text-primary-200'
               }`}
             >
               {activeTab === index && <IconCheck className="mr-2 h-5 w-5" />} {option.link?.label}
