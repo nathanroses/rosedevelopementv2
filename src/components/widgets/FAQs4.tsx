@@ -35,7 +35,7 @@ const FAQs4 = ({ header, tabs }: FAQsProps) => {
                         <li
                           key={`tab-${index}`}
                           className={`mb-5 flex cursor-pointer items-center ${
-                            activeTab === index ? 'text-primary-600 dark:text-primary-200' : ''
+                            activeTab === index ? 'text-purple-600 dark:text-primary-200' : ''
                           }`}
                           tabIndex={0}
                           onClick={onSelectTab}

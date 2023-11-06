@@ -20,7 +20,7 @@ const Features4 = ({ header, items }: FeaturesProps) => (
             </div>
             {link && (
               <div className="pt-4">
-                <a className="flex font-bold text-blue-600 hover:underline dark:text-gray-200" href={link.href}>
+                <a className="flex font-bold text-purple-600 hover:underline dark:text-gray-200" href={link.href}>
                   {link.label}
                 </a>
               </div>

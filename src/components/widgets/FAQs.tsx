@@ -14,7 +14,7 @@ const FAQs = ({ header, items }: FAQsProps) => (
                 <h3 className="mb-4 text-xl font-bold">
                   <IconArrowDownRight
                     name="tabler:arrow-down-right"
-                    className="inline-block h-7 w-7 text-primary-800"
+                    className="inline-block h-7 w-7 text-purple-800"
                   />
                   {title}
                 </h3>

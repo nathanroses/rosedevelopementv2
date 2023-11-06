@@ -40,7 +40,7 @@ const Pricing = ({ header, prices }: PricingProps) => (
                         key={`text-pricing-${index}`}
                         className="mb-1.5 flex items-start text-left text-base leading-7"
                       >
-                        <div className="mt-1.5 mr-1.5 flex h-4 w-4 items-center justify-center rounded-full border-2 border-primary-600 bg-primary-600">
+                        <div className="mt-1.5 mr-1.5 flex h-4 w-4 items-center justify-center rounded-full border-2 border-purple-600 bg-purple-600">
                           <IconCheck className="text-white dark:text-slate-200" />
                         </div>
                         {item}
