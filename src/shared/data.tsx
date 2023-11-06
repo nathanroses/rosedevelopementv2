@@ -943,116 +943,116 @@ export const pricingData: PricingProps = {
 // Comparison data
 export const comparisonData: ComparisonProps = {
   header: {
-    title: "What's available for each plan?",
+    title: "Explore Our Rose Development Plans",
     subtitle:
-      'Morbi ut imperdiet ex. Nullam sed tincidunt purus. Donec finibus dui at odio dictum facilisis. Maecenas ut orci quis nisi congue maximus. Sed quis augue sapien.',
+      'Dive into the depth of our rose cultivation expertise. Our plans are designed to meet diverse horticultural needs, showcasing our versatility and commitment to quality.',
     // highlight: 'Comparison',
   },
   columns: [
     {
-      title: 'compare plans',
+      title: 'Compare Plans',
       items: [
         {
-          title: 'In vitae finibus',
+          title: 'Species Varieties',
         },
         {
-          title: 'Cras sollicitudin',
+          title: 'Growth Support',
         },
         {
-          title: 'Suspendisse',
+          title: 'Bloom Enhancers',
         },
         {
-          title: 'Vestibulum ornare',
+          title: 'Disease Management',
         },
         {
-          title: 'In hendrerit',
+          title: 'Customized Nutrition',
         },
         {
-          title: 'Ut pharetra',
+          title: 'Expert Consultations',
         },
       ],
     },
     {
-      title: 'basic',
+      title: 'Basic',
       items: [
         {
-          title: 'Free 7-day trial',
+          title: 'Select Range',
         },
         {
-          title: 'Limited',
+          title: 'Guided',
         },
         {
-          title: '$29',
+          title: 'Standard',
         },
         {
-          title: false,
+          title: 'Basic Coverage',
         },
         {
-          title: false,
+          title: 'Standard Formulas',
         },
         {
-          title: true,
+          title: 'Email Support',
         },
       ],
       callToAction: {
-        text: 'Get started',
-        href: '/',
+        text: 'Learn More',
+        href: '/basic-plan',
         btnType: 'primary',
       },
     },
     {
-      title: 'standard',
+      title: 'Standard',
       items: [
         {
-          title: 'Free 15-day trial',
+          title: 'Expanded Selection',
         },
         {
-          title: 'Unlimited',
+          title: 'Enhanced',
         },
         {
-          title: '$69',
+          title: 'Premium Boosters',
         },
         {
-          title: false,
+          title: 'Comprehensive Protection',
         },
         {
-          title: true,
+          title: 'Tailored Solutions',
         },
         {
-          title: true,
+          title: 'Direct Chat',
         },
       ],
       callToAction: {
-        text: 'Get started',
-        href: '/',
+        text: 'Discover More',
+        href: '/standard-plan',
         btnType: 'primary',
       },
     },
     {
-      title: 'premium',
+      title: 'Premium',
       items: [
         {
-          title: 'Free 30-day trial',
+          title: 'Exclusive Varieties',
         },
         {
-          title: 'Unlimited',
+          title: 'Full Support',
         },
         {
-          title: '$199',
+          title: 'Advanced Formulations',
         },
         {
-          title: true,
+          title: 'Integrated Disease Management',
         },
         {
-          title: true,
+          title: 'Bespoke Nutrition Plans',
         },
         {
-          title: true,
+          title: 'One-on-One Consultations',
         },
       ],
       callToAction: {
-        text: 'Get started',
-        href: '/',
+        text: 'Join Now',
+        href: '/premium-plan',
         btnType: 'primary',
       },
     },
