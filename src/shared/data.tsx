@@ -181,14 +181,14 @@ export const hero2Data: HeroProps = {
 export const socialProofData: SocialProofProps = {
   images: [
     {
-      link: 'https://therosa.org/',
-      src: TherosaLogo,
-      alt: 'None',
-    },
-    {
       link: 'https://theleadingedgeinc.com/',
       src: SnugbugLogo,
       alt: 'None',
+    },
+    {
+      link: 'https://tailwindcss.com/',
+      src: ZeroLogo,
+      alt: 'Snugbug',
     },
     {
       link: 'https://tailwindcss.com/',
@@ -612,7 +612,7 @@ export const featuresData3: FeaturesProps = {
     {
       title: 'Innovation Hub',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.',
+        'Staying ahead of the curve is crucial. Rose Development fosters a culture of innovation ensuring our businesses are always equipped with cutting-edge tools and strategies.',
       icon: IconArrowsRightLeft,
     },
     {
