@@ -51,7 +51,6 @@ import NycstockImg from '~/assets/images/nycstock.png';
 import gasImg from '~/assets/images/box.png'; 
 import SnugbugLogo from '~/assets/images/snugbuglogo.png';
 import ZeroLogo from '~/assets/images/zero.png';
-import TherosaLogo from '~/assets/images/therosa.png';
 import MonkeyCeo from '~/assets/images/Monkey 1.png';
 import MonkeyLegal from '~/assets/images/Monkey 2.png';
 import MonkeyMoney from '~/assets/images/Monkey 3.png';
@@ -59,7 +58,9 @@ import MonkeyPaint from '~/assets/images/Monkey 4.png';
 import GreenBar from '~/assets/images/greenbar.png';
 import GoldBar from '~/assets/images/goldbar.png';
 import SilverBar from '~/assets/images/silverbar.png';
-
+import ProfileOne from '~/assets/images/ProfileOne.png';
+import ProfileTwo from '~/assets/images/ProfileTwo.png';
+import ProfileThree from '~/assets/images/ProfileThree.png';
 
 
 
@@ -199,14 +200,50 @@ export const socialProofData: SocialProofProps = {
   ],
 };
 
+// FAQS data
+export const faqsData: FAQsProps = {
+  header: {
+    title: 'Frequently Asked Questions',
+    subtitle:
+      'Your business aspirations deserve an expert touch. Dive into our frequently asked questions and discover how we can elevate your enterprise to new heights.',
+    highlight: 'FAQS',
+  },
+  items: [
+    {
+      title: 'Which industries are within your area of expertise?',
+      description: `We navigate a vast spectrum of sectors, ensuring each business thrives under our specialized guidance.`,
+    },
+    {
+      title: 'How do you set yourselves apart from other management firms?',
+      description: `Rose Development transcends traditional management. Our holistic approach and dedication ensure your business is always poised for success.      `,
+    },
+    {
+      title: "Can businesses anticipate measurable results?",
+      description: `Indeed. Our partners consistently witness unparalleled growth, operational finesse, and leadership in their respective markets.
 
+      `,
+    },
+    {
+      title: "What's the journey like when partnering with you?",
+      description: `The voyage begins with an in-depth business analysis. From there, we tailor strategies and provide unwavering support, sculpting a roadmap to success.`,
+    },
+    {
+      title: 'Is global expansion on your radar?',
+      description: `Certainly. Our expansive global network and adeptness at navigating diverse market dynamics make us the ideal ally for international endeavors.`,
+    },
+    {
+      title: 'How do you prioritize sustainability and ethical practices?',
+      description: `Creating success that benefits the larger ecosystem is intrinsic to our ethos. We champion eco-friendly initiatives and advocate for a conscientious business approach.`,
+    },
+  ],
+};
 
 // FAQS data 2
 export const faqsData2: FAQsProps = {
   header: {
     title: 'Frequently Asked Questions',
     subtitle:
-      'Your business aspirations deserve an expert touch. Dive into our frequently asked questions and discover how we can elevate your enterprise to new heights.ad',
+      'Your business aspirations deserve an expert touch. Dive into our frequently asked questions and discover how we can elevate your enterprise to new heights.',
     highlight: 'FAQS',
   },
   items: [
@@ -810,7 +847,7 @@ export const testimonialData: TestimonialProps = {
       comment:
         'Transformative insights led us to record growth.',
       image: {
-        src: 'https://images.unsplash.com/photo-1619734086067-24bf8889ea7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
+        src: ProfileOne,
         alt: '',
       },
       icon: IconBrandTwitter,
@@ -822,7 +859,7 @@ export const testimonialData: TestimonialProps = {
       comment:
         'Commitment to excellence took our sustainability initiatives to new heights.',
       image: {
-        src: 'https://images.unsplash.com/photo-1565049786474-1dea82a8b995?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
+        src: ProfileTwo,
         alt: '',
       },
       icon: IconBrandTwitter,
@@ -834,7 +871,7 @@ export const testimonialData: TestimonialProps = {
       comment:
         'Innovative strategies gave us the competitive edge we needed.',
       image: {
-        src: 'https://images.unsplash.com/photo-1659057106920-da022cfbc0cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
+        src: ProfileThree,
         alt: '',
       },
       icon: IconBrandTwitter,
