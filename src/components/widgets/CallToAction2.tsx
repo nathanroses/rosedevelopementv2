@@ -10,7 +10,7 @@ const Card = ({ title, description, href, form }: Item) => (
       </div>
       {href && (
         <div className="flex h-10 w-10 items-center justify-center">
-          <IconChevronRight className="h-6 w-6 text-primary-600 dark:text-slate-200" />
+          <IconChevronRight className="h-6 w-6 text-purple-600 dark:text-slate-200" />
         </div>
       )}
     </div>
@@ -20,7 +20,7 @@ const Card = ({ title, description, href, form }: Item) => (
           <div className="flex items-center">
             {form.icon && (
               <span className="rounded-bl rounded-tl border-r-[1px] border-gray-400 px-2 py-2 dark:bg-[#3b3b3b]">
-                <form.icon className="h-6 w-6 text-primary-600 dark:text-gray-400" />
+                <form.icon className="h-6 w-6 text-purple-600 dark:text-gray-400" />
               </span>
             )}
             <input
@@ -32,7 +32,7 @@ const Card = ({ title, description, href, form }: Item) => (
             />
             <button
               type={form.btn.type}
-              className="rounded-br rounded-tr border-l-[1px] border-gray-400 bg-primary-600 px-4 py-2 text-white"
+              className="rounded-br rounded-tr border-l-[1px] border-gray-400 bg-purple-600 px-4 py-2 text-white"
             >
               {form.btn.title}
             </button>
@@ -44,7 +44,7 @@ const Card = ({ title, description, href, form }: Item) => (
 );
 
 const CallToAction2 = ({ title, subtitle, items }: CallToActionProps) => (
-  <section className="bg-primary-900 text-gray-200" id="callToActionTwo">
+  <section className="bg-purples-900 text-gray-200" id="callToActionTwo">
     <div className="mx-auto max-w-7xl px-4 py-16 lg:px-8 lg:pt-20">
       <div className="row-gap-10 grid gap-6 md:grid-cols-2">
         <div className="mx-auto md:my-auto md:ml-0 md:pb-6 md:pr-24">
