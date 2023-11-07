@@ -137,14 +137,14 @@ export const heroData: HeroProps = {
   ),
   callToAction: {
     text: 'Our Portfolio',
-    href: '/About Us',
+    href: '/blog',
     icon: IconStar,
     targetBlank: true,
     btnType: 'primary',
   },
   callToAction2: {
     text: 'Learn more',
-    href: '/About Us',
+    href: '/about',
   },
   image: {
     src: heroImg,
