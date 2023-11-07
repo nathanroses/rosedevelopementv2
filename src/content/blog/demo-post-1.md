@@ -3,7 +3,7 @@ publishDate: 'Nov 06 2023'
 title: 'SnugBug'
 description: 'Lorem ipsum dolor sit amet'
 excerpt: 'Sint sit cillum pariatur eiusmod nulla pariatur ipsum. Sit laborum anim qui mollit tempor pariatur nisi minim dolor. Aliquip et adipisicing sit sit fugiat'
-image: /src/assets/images/snugbuglogo 2.png
+image: ~/assets/images/snugbuglogo.png
 tags: [markdown, blog]
 ---
 
