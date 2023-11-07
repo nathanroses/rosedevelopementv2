@@ -279,35 +279,35 @@ export const faqsData2: FAQsProps = {
 // FAQS3 data
 export const faqs3Data: FAQsProps = {
   header: {
-    title: 'Pricing FAQs',
-    subtitle: 'Do you have other questions?',
+    title: 'Rose Development Pricing FAQs',
+    subtitle: 'Seeking further details? Let’s address your queries.',
     // highlight: 'FAQS',
     position: 'left',
   },
   items: [
     {
-      title: 'Which plan is best for me?',
-      description: `Nunc mollis tempor quam, non fringilla elit sagittis in. Nullam vitae consectetur mi, a elementum arcu. Sed laoreet, ipsum et vehicula dignissim, leo orci pretium sem, ac condimentum tellus est quis ligula.`,
+      title: 'Which rose development plan suits my needs?',
+      description: `Each plan is tailored to cater to different scales of rose cultivation. Whether you're a hobbyist or a commercial grower, we have a plan that fits. Assess your variety interest, support requirements, and scale to choose the perfect plan.`,
     },
     {
-      title: 'What are my payment options?',
-      description: `Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer eleifend vestibulum nisl in iaculis. Mauris dictum ac purus vestibulum auctor. Praesent imperdiet lectus et massa faucibus, quis viverra massa rhoncus.`,
+      title: 'What payment methods are accepted?',
+      description: `We accept a range of payment options for your convenience, including all major credit cards, bank transfers, and online payment platforms. Secure and flexible payment is part of our commitment to you.`,
     },
     {
-      title: 'How do I change my plan to a different one?',
-      description: `Mauris vitae eros a dui varius luctus. Suspendisse rutrum, sapien nec blandit bibendum, justo sapien sollicitudin erat, id aliquam sapien purus quis leo. Aliquam vulputate vestibulum consectetur.`,
+      title: 'How can I upgrade or downgrade my plan?',
+      description: `Adjusting your plan is simple and can be managed directly from your account dashboard. If you need personalized assistance, our customer service team is readily available to guide you through the process.`,
     },
     {
-      title: 'What happen at the end of my free trial?',
-      description: `Nunc dapibus lacinia ipsum ut elementum. Integer in pretium sapien. Ut pretium nisl mauris, ut rutrum justo condimentum id. Etiam aliquet, arcu at iaculis laoreet, est arcu egestas sapien, eget sollicitudin odio orci et nunc.`,
+      title: 'What happens at the end of my billing cycle?',
+      description: `There are no surprises at the end of your billing cycle. We'll send a reminder before your plan renews. You'll have the option to continue with us, change your plan, or, if you must, cancel your services.`,
     },
     {
-      title: 'Can I import data from other tools?',
-      description: `Duis in maximus mauris, id eleifend mauris. Nam a fringilla arcu. Curabitur convallis, tellus non aliquet rhoncus, lacus massa auctor eros, in interdum lectus augue sed augue. Fusce tempor ex id faucibus efficitur.`,
+      title: 'Is it possible to integrate my existing data?',
+      description: `Absolutely! Our platform supports data integration from various sources. We're here to ensure a seamless transition, so you can carry on with your rose cultivation without missing a beat.`,
     },
     {
-      title: 'Can I cancel my plan at any time?',
-      description: `Nullam imperdiet sapien tincidunt erat dapibus faucibus. Vestibulum a sem nec lorem imperdiet scelerisque non sed lacus. Ut pulvinar id diam vitae auctor. Nam tempus, neque et elementum consectetur, ex ipsum pulvinar risus, vel sodales ligula tortor eu eros.`,
+      title: 'What is the cancellation policy?',
+      description: `Should you decide to cancel, you can do so at any time. Our policy ensures that you're not bound by long-term commitments. We believe in the quality of our service and hope you'll stay with us for the value it adds.`,
     },
   ],
   callToAction: {
