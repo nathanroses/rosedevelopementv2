@@ -1,9 +1,9 @@
 ---
-publishDate: 'Nov 02 2022'
-title: 'Nulla amet fugiat qui minim deserunt enim eu'
+publishDate: 'Nov 06 2023'
+title: 'SnugBug'
 description: 'Lorem ipsum dolor sit amet'
 excerpt: 'Sint sit cillum pariatur eiusmod nulla pariatur ipsum. Sit laborum anim qui mollit tempor pariatur nisi minim dolor. Aliquip et adipisicing sit sit fugiat'
-image: 'https://source.unsplash.com/random/1024x640/?vintage+travel'
+image: /src/assets/images/snugbuglogo 2.png
 tags: [markdown, blog]
 ---
 
