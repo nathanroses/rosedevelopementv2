@@ -1,10 +1,10 @@
 module.exports.SITE = {
-  name: 'Rose Developement',
+  name: '',
 
-  origin: 'https:/rosedevelopement.org',
+  origin: 'https://rosedevelopment.org',
   basePathname: '/',
   trailingSlash: false,
 
-  title: 'Rose Developement',
-  description: 'Rose Developement is a distinguished conglomerate platform creating the next greatest companies.',
+  title: 'Rose Development',
+  description: 'Rose Development is a distinguished conglomerate platform creating the next greatest companies.',
 };

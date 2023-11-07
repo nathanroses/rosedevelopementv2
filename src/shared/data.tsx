@@ -129,7 +129,7 @@ export const heroData: HeroProps = {
     <>
       <span className="hidden md:inline">
         <span className="font-semibold underline decoration-wavy decoration-1 underline-offset-2">
-          Rose Developement
+          Rose Development
         </span>{' '}
          is a buisness platform, uniting diverse enterprises with modern elegance. Built on principles of Global Synergy, Sustainable Growth, and Innovative Leadership, it embodies a future-forward vision for multifaceted corporate endeavors.
       </span>{' '}
@@ -279,7 +279,7 @@ export const faqsData2: FAQsProps = {
 // FAQS3 data
 export const faqs3Data: FAQsProps = {
   header: {
-    title: 'Rose Development Pricing FAQs',
+    title: 'Pricing FAQs',
     subtitle: 'Seeking further details? Let’s address your queries.',
     // highlight: 'FAQS',
     position: 'left',
@@ -421,7 +421,7 @@ export const faqs4Data: FAQsProps = {
 
 // CallToAction data
 export const callToActionData: CallToActionProps = {
-  title: 'Rose Developement',
+  title: 'Rose Development',
   subtitle:
     'Dive deeper into our portfolio of companies and discover our comprehensive services. Download our brochure to learn more about how we can elevate your business.',
   callToAction: {
@@ -477,7 +477,7 @@ export const featuresData: FeaturesProps = {
   header: {
     title: (
       <>
-        What you get with <span className="whitespace-nowrap">Rose Developement</span>
+        What you get with <span className="whitespace-nowrap">Rose Development</span>
       </>
     ),
     subtitle:
@@ -622,30 +622,29 @@ export const featuresData3: FeaturesProps = {
   ],
 };
 
-// Content data
 export const contentData: ContentProps = {
   header: {
-    title: 'Business Acumen Refined',
-    subtitle: 'A Distinct Approach to Contemporary Challenges',
-    highlight: 'Perspective',
+    title: 'Strategic Evolution',
+    subtitle: 'Refining Business Landscapes',
+    highlight: 'Innovation',
   },
   content:
-    'Recent analytical insights reveal a compelling trend: Organizations that embrace strategic foresight are poised for success. Rose Development exemplifies this forward-thinking ethos.',
+    'Navigate the complexities of the corporate world with a suite of services designed for the discerning enterprise. Our strategic approach ensures your business not only meets industry standards but sets them.',
   items: [
     {
-      title: 'Embracing the Digital Renaissance',
+      title: 'Corporate Cultivation',
       description:
-        'In a world where digital transformation is paramount, we position organizations to harness the full potential of their digital assets.',
+        'We provide a tailored framework for corporate growth, driving innovation with precision and guiding companies to flourish in competitive markets.',
     },
     {
-      title: 'The Art and Science of Business',
+      title: 'Operational Excellence',
       description:
-        'By 2030, the confluence of technology and creativity will redefine market leadership. We guide our partners through this intricate dance of innovation.',
+        'Achieve peak performance with our bespoke operational strategies that streamline processes, enhance productivity, and optimize your business model for scalability.',
     },
     {
-      title: 'Sustainability: The New Gold Standard',
+      title: 'Investment in Quality',
       description:
-        'In-depth research underscores the significance of sustainable practices in shaping the enterprises of tomorrow. With us, sustainability is not an afterthought—it’s integral.',
+        'Our commitment to quality is unwavering. We invest in research and development to foster high-caliber practices that yield sustainable success and client satisfaction.',
     },
   ],
   image: {
@@ -655,28 +654,27 @@ export const contentData: ContentProps = {
 }
 
 
-// Content2 data
 export const content2Data: ContentProps = {
   content:
-    'In an era marked by rapid technological shifts, business landscapes evolve at an unprecedented rate. At Rose Development, we decipher tomorrow’s complexities today.',
+    'Navigating the future with clarity and insight, we provide the tools and expertise for businesses to excel in an ever-changing corporate landscape.',
   items: [
     {
-      title: 'The Quantum Leap in Finance',
+      title: 'Innovative Funding Strategies',
     },
     {
-      title: 'AI: The New Business Oracle',
+      title: 'Predictive Analytics in Market Leadership',
     },
     {
-      title: 'The Era of Decentralized Enterprises',
+      title: 'Blockchain for Business Transparency',
     },
     {
-      title: 'Evolving Consumer Dynamics',
+      title: 'Consumer Insights and Engagement Models',
     },
     {
-      title: 'Green Tech: Powering Tomorrow',
+      title: 'Sustainable Practices in Corporate Growth',
     },
     {
-      title: 'Digital Ethos in Modern Governance',
+      title: 'Cybersecurity in the Age of Digital Transactions',
     },
   ],
   image: {
@@ -940,35 +938,34 @@ export const pricingData: PricingProps = {
   ],
 };
 
-// Comparison data
 export const comparisonData: ComparisonProps = {
   header: {
-    title: "Explore Our Rose Development Plans",
+    title: "Explore Our Service Plans",
     subtitle:
-      'Dive into the depth of our rose cultivation expertise. Our plans are designed to meet diverse horticultural needs, showcasing our versatility and commitment to quality.',
+      'Tailored to address the multifaceted nature of business management, our service plans are crafted to support your company’s growth and operational excellence.',
     // highlight: 'Comparison',
   },
   columns: [
     {
-      title: 'Compare Plans',
+      title: 'Service Features',
       items: [
         {
-          title: 'Species Varieties',
+          title: 'Company Analysis',
         },
         {
-          title: 'Growth Support',
+          title: 'Operational Support',
         },
         {
-          title: 'Bloom Enhancers',
+          title: 'Strategic Planning',
         },
         {
-          title: 'Disease Management',
+          title: 'Risk Management',
         },
         {
-          title: 'Customized Nutrition',
+          title: 'Financial Advisory',
         },
         {
-          title: 'Expert Consultations',
+          title: 'Leadership Training',
         },
       ],
     },
@@ -976,22 +973,22 @@ export const comparisonData: ComparisonProps = {
       title: 'Basic',
       items: [
         {
-          title: 'Select Range',
+          title: 'Essential Insights',
         },
         {
-          title: 'Guided',
+          title: 'Email Guidance',
         },
         {
-          title: 'Standard',
+          title: 'Standard Strategies',
         },
         {
-          title: 'Basic Coverage',
+          title: 'Basic Risk Assessment',
         },
         {
-          title: 'Standard Formulas',
+          title: 'Financial Best Practices',
         },
         {
-          title: 'Email Support',
+          title: 'Online Workshops',
         },
       ],
       callToAction: {
@@ -1004,22 +1001,22 @@ export const comparisonData: ComparisonProps = {
       title: 'Standard',
       items: [
         {
-          title: 'Expanded Selection',
+          title: 'Comprehensive Analysis',
         },
         {
-          title: 'Enhanced',
+          title: 'Dedicated Support',
         },
         {
-          title: 'Premium Boosters',
+          title: 'Enhanced Planning',
         },
         {
-          title: 'Comprehensive Protection',
+          title: 'Integrated Risk Management',
         },
         {
-          title: 'Tailored Solutions',
+          title: 'In-Depth Financial Consulting',
         },
         {
-          title: 'Direct Chat',
+          title: 'Live Seminars',
         },
       ],
       callToAction: {
@@ -1032,22 +1029,22 @@ export const comparisonData: ComparisonProps = {
       title: 'Premium',
       items: [
         {
-          title: 'Exclusive Varieties',
+          title: 'Full-Spectrum Analysis',
         },
         {
-          title: 'Full Support',
+          title: 'Complete Operational Support',
         },
         {
-          title: 'Advanced Formulations',
+          title: 'Advanced Strategic Planning',
         },
         {
-          title: 'Integrated Disease Management',
+          title: 'Comprehensive Risk Solutions',
         },
         {
-          title: 'Bespoke Nutrition Plans',
+          title: 'Custom Financial Advisory',
         },
         {
-          title: 'One-on-One Consultations',
+          title: 'Executive Coaching',
         },
       ],
       callToAction: {
@@ -1058,6 +1055,7 @@ export const comparisonData: ComparisonProps = {
     },
   ],
 };
+
 
 // Stats
 export const statsData: StatsProps = {
