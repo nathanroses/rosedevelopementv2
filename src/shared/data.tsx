@@ -2,7 +2,6 @@ import {
   IconArrowDown,
   IconArrowsRightLeft,
   IconBrandFacebook,
-  IconBrandGithub,
   IconBrandInstagram,
   IconBrandLinkedin,
   IconBrandTailwind,
@@ -73,7 +72,7 @@ export const announcementData: AnnouncementProps = {
   },
   callToAction2: {
     text: 'Follow @rosedevelopement on Twitter',
-    href: 'https://twitter.com/intent/user?screen_name=onwidget',
+    href: 'https://twitter.com/home?lang=en',
   },
 };
 
@@ -107,7 +106,7 @@ export const headerData: HeaderProps = {
     {
       text: 'Contact',
       href: '/contact',
-      targetBlank: true,
+      targetBlank: false,
       btnType: 'primary',
     },
   ],
@@ -1392,11 +1391,10 @@ export const footerData2: FooterProps = {
     },
   ],
   socials: [
-    { label: 'Twitter', icon: IconBrandTwitter, href: '#' },
-    { label: 'Instagram', icon: IconBrandInstagram, href: '#' },
-    { label: 'Facebook', icon: IconBrandFacebook, href: '#' },
-    { label: 'RSS', icon: IconRss, href: '#' },
-    { label: 'Github', icon: IconBrandGithub, href: 'https://github.com/onwidget/tailnext' },
+    { label: 'Twitter', icon: IconBrandTwitter, href: 'https://twitter.com/home?lang=en' },
+    { label: 'Instagram', icon: IconBrandInstagram, href: 'https://www.instagram.com/' },
+    { label: 'Facebook', icon: IconBrandFacebook, href: 'https://www.facebook.com/' },
+    { label: 'RSS', icon: IconRss, href: 'https://rss.com/' },
   ],
 
 };
