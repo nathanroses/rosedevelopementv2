@@ -60,6 +60,7 @@ import SilverBar from '~/assets/images/silverbar.png';
 import ProfileOne from '~/assets/images/ProfileOne.png';
 import ProfileTwo from '~/assets/images/ProfileTwo.png';
 import ProfileThree from '~/assets/images/ProfileThree.png';
+import TherosaLogo from '~/assets/images/THEROSAV2.png';
 
 
 
@@ -150,7 +151,7 @@ export const heroData: HeroProps = {
     src: heroImg,
     alt: 'Hero TailNext',
   },
-};
+}
 
 // Hero2 data
 export const hero2Data: HeroProps = {
@@ -177,8 +178,8 @@ export const hero2Data: HeroProps = {
 export const socialProofData: SocialProofProps = {
   images: [
     {
-      link: 'https://theleadingedgeinc.com/',
-      src: SnugbugLogo,
+      link: 'https://therosa-seven.vercel.app/',
+      src: TherosaLogo,
       alt: 'None',
     },
     {
