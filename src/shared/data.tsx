@@ -61,6 +61,7 @@ import ProfileOne from '~/assets/images/ProfileOne.png';
 import ProfileTwo from '~/assets/images/ProfileTwo.png';
 import ProfileThree from '~/assets/images/ProfileThree.png';
 import TherosaLogo from '~/assets/images/THEROSAV2.png';
+import AurioLogo from '~/assets/images/aurio';
 
 
 
@@ -183,8 +184,8 @@ export const socialProofData: SocialProofProps = {
       alt: 'None',
     },
     {
-      link: 'https://tailwindcss.com/',
-      src: ZeroLogo,
+      link: 'https://gzxg3h.csb.app/',
+      src: AurioLogo,
       alt: 'Snugbug',
     },
     {
