@@ -48,7 +48,6 @@ import contentTwo from '~/assets/images/content3.png';
 import heroImg from '~/assets/images/JET.png';
 import NycstockImg from '~/assets/images/nycstock.png';
 import gasImg from '~/assets/images/box.png'; 
-import SnugbugLogo from '~/assets/images/snugbuglogo.png';
 import ZeroLogo from '~/assets/images/zero.png';
 import MonkeyCeo from '~/assets/images/Monkey 1.png';
 import MonkeyLegal from '~/assets/images/Monkey 2.png';
@@ -62,7 +61,12 @@ import ProfileTwo from '~/assets/images/ProfileTwo.png';
 import ProfileThree from '~/assets/images/ProfileThree.png';
 import TherosaLogo from '~/assets/images/THEROSAV2.png';
 import AurioLogo from '~/assets/images/aurio.png';
-
+import TleLogo from '~/assets/images/tle.png';
+import MochaLogo from '~/assets/images/mocha.png';
+import kaws1 from '~/assets/images/kaws1.png';
+import kaws2 from '~/assets/images/kaws2.png';
+import kaws3 from '~/assets/images/kaws3.png';
+import kaws4 from '~/assets/images/kaws4.png';
 
 
 // Announcement data
@@ -181,22 +185,22 @@ export const socialProofData: SocialProofProps = {
     {
       link: 'https://therosa-seven.vercel.app/',
       src: TherosaLogo,
-      alt: 'None',
+      alt: 'Therosa',
     },
     {
       link: 'https://gzxg3h.csb.app/',
       src: AurioLogo,
-      alt: 'Snugbug',
+      alt: 'Aurio',
     },
     {
-      link: 'https://tailwindcss.com/',
-      src: ZeroLogo,
-      alt: 'Snugbug',
+      link: 'https://theleadingedgeinc.com/',
+      src: TleLogo,
+      alt: 'The Leading Edge',
     },
     {
-      link: 'https://www.typescriptlang.org/',
-      src: ZeroLogo,
-      alt: 'None',
+      link: 'https://mocha-psi.vercel.app/',
+      src: MochaLogo,
+      alt: 'Mocha',
     },
   ],
 };
@@ -732,7 +736,7 @@ export const teamData: TeamProps = {
       name: 'Nathan Rose',
       occupation: 'Chief Executive Officer',
       image: {
-        src: MonkeyCeo,
+        src: kaws1,
         alt: 'Cindy Belcher',
       },
       items: [
@@ -757,7 +761,7 @@ export const teamData: TeamProps = {
       name: 'Lee Alverson',
       occupation: 'Head of Accounting',
       image: {
-        src: MonkeyMoney,
+        src: kaws2,
         alt: '',
       },
       items: [
@@ -782,7 +786,7 @@ export const teamData: TeamProps = {
       name: 'Joe Becker',
       occupation: 'General Counsel',
       image: {
-        src: MonkeyLegal,
+        src: kaws3,
         alt: 'Clark Bourne',
       },
       items: [
@@ -807,7 +811,7 @@ export const teamData: TeamProps = {
       name: 'Awais',
       occupation: 'Designer',
       image: {
-        src: MonkeyPaint,
+        src: kaws4,
         alt: 'Bella Chase',
       },
       items: [
@@ -1097,7 +1101,7 @@ export const contactData: ContactProps = {
     },
     {
       title: 'Contact',
-      description: ['Phone: 1-800-ROSE (7673)', 'Email: support@rosedevelopment.com'],
+      description: ['Phone: (704) 326-6651', 'Email: support@rosedevelopment.org'],
       icon: IconPhoneCall,
     },
     {
@@ -1385,11 +1389,11 @@ export const footerData2: FooterProps = {
     },
     {
       title: 'Phone',
-      texts: ['Office: +1 303 749 5155'],
+      texts: ['Office: +1 704 326 6651'],
     },
     {
       title: 'Email',
-      texts: ['Office: rosedevelopement@gmail.com'],
+      texts: ['Office: support@rosedevelopment.org'],
     },
   ],
   socials: [
