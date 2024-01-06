@@ -73,7 +73,7 @@ import kaws4 from '~/assets/images/kaws4.png';
 export const announcementData: AnnouncementProps = {
   title: 'NEW',
   callToAction: {
-    text: 'Q4 Update: New partnership boosts your success. Experience precision and performance »',
+    text: 'Q1 Update: New partnership boosts your success. Experience precision and performance »',
     href: 'https://nextjs.org/docs/app',
   },
   callToAction2: {
@@ -845,8 +845,8 @@ export const testimonialData: TestimonialProps = {
   },
   testimonials: [
     {
-      name: 'Sophie Turner',
-      occupation: 'CEO of TechFlare',
+      name: 'Sophia',
+      occupation: 'IT at Orbit Odyssey',
       comment:
         'Transformative insights led us to record growth.',
       image: {
@@ -857,8 +857,8 @@ export const testimonialData: TestimonialProps = {
       href: '#',
     },
     {
-      name: 'Derek Wang',
-      occupation: 'Founder of GreenSustain',
+      name: 'Ethan',
+      occupation: 'Support at Pixel Play',
       comment:
         'Commitment to excellence took our sustainability initiatives to new heights.',
       image: {
@@ -869,8 +869,8 @@ export const testimonialData: TestimonialProps = {
       href: '#',
     },
     {
-      name: 'Maya Rodriguez',
-      occupation: 'COO of LuxeFash',
+      name: 'Ava',
+      occupation: 'Founder of Brew',
       comment:
         'Innovative strategies gave us the competitive edge we needed.',
       image: {
