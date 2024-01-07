@@ -48,11 +48,6 @@ import contentTwo from '~/assets/images/content3.png';
 import heroImg from '~/assets/images/JET.png';
 import NycstockImg from '~/assets/images/nycstock.png';
 import gasImg from '~/assets/images/box.png'; 
-import ZeroLogo from '~/assets/images/zero.png';
-import MonkeyCeo from '~/assets/images/Monkey 1.png';
-import MonkeyLegal from '~/assets/images/Monkey 2.png';
-import MonkeyMoney from '~/assets/images/Monkey 3.png';
-import MonkeyPaint from '~/assets/images/Monkey 4.png';
 import GreenBar from '~/assets/images/greenbar.png';
 import GoldBar from '~/assets/images/goldbar.png';
 import SilverBar from '~/assets/images/silverbar.png';
@@ -136,7 +131,7 @@ export const heroData: HeroProps = {
         <span className="font-semibold underline decoration-wavy decoration-1 underline-offset-2">
           Rose Development
         </span>{' '}
-         is a buisness platform, uniting diverse enterprises with modern elegance. Built on principles of Global Synergy, Sustainable Growth, and Innovative Leadership, it embodies a future-forward vision for multifaceted corporate endeavors.
+        Offering Comprehensive Technology and Business Strategies, Tailored for Global Growth and Sustainability. Specializing in AI-Driven Innovation, Cross-Industry Collaboration, and Transformative Leadership for Multifaceted Enterprises.
       </span>{' '}
 
     </>
@@ -883,65 +878,66 @@ export const testimonialData: TestimonialProps = {
   ],
 };
 
-// Pricing data
 export const pricingData: PricingProps = {
   header: {
-    title: 'Choose Your Path',
+    title: 'Elevate Your Business',
     subtitle:
-      'Empower your enterprise with tailored strategies and dedicated partnership. Each of our packages is designed to cater to your unique ambitions, ensuring success at every business stage.',
-    // highlight: 'Pricing',
+      'Advance your enterprise with cutting-edge technology solutions and strategic partnerships. Our packages are crafted to enhance your technological capabilities and drive global innovation.',
   },
   prices: [
     {
-      title: 'Essential',
+      title: 'Innovator',
       icon: SilverBar,
-      period: 'Startups & Emerging Enterprises',
+      period: 'Startups & Tech Pioneers',
       texts: [
-        'Initial business assessment',
-        'Monthly performance reviews',
-        'Basic strategy formulation',
+        'AI and technology readiness assessment',
+        'Quarterly tech trend insights and reviews',
+        'Basic digital transformation strategy',
       ],
       callToAction: {
-        text: 'Get Started',
+        text: 'Embark on Innovation',
         href: '/',
       },
       hasRibbon: false,
     },
     {
-      title: 'Growth',
+      title: 'Accelerator',
       icon: GoldBar,
-      period: 'Mid Sized & Expanding Businesses',
-      texts: ['Comprehensive business analysis', 
-      'Advanced strategic planning', 
-      'Bi-weekly strategy sessions', 
-      'Access to an extended network of industry experts',
-      'Priority Support '],
-
+      period: 'Growing Tech-Driven Businesses',
+      texts: [
+        'Comprehensive tech ecosystem analysis',
+        'Monthly innovation strategy sessions',
+        'Access to exclusive tech development tools and platforms',
+        'Networking with industry leaders and tech experts',
+        'Priority tech support and consultation',
+      ],
       callToAction: {
-        text: 'Explore Insights',
+        text: 'Accelerate Growth',
         href: '/',
       },
       hasRibbon: true,
-      ribbonTitle: 'Top Seller',
+      ribbonTitle: 'Most Popular',
     },
     {
-      title: 'Elite',
+      title: 'Visionary',
       icon: GreenBar,
-      period: 'Established & Leading Enterprises',
+      period: 'Established Tech Leaders',
       texts: [
-        'In-depth business, market, and competitor analysis',
-        'Bespoke strategy formulation tailored to your unique landscape',
-        'Weekly executive strategy sessions',
-        'Dedicated account manager for personalized guidance',
+        'Advanced business and tech landscape analysis',
+        'Custom AI and tech strategy development',
+        'Weekly executive tech innovation meetings',
+        'Dedicated tech advisor for ongoing support and insights',
+        'Exclusive access to emerging tech and AI advancements',
       ],
       callToAction: {
-        text: 'Schedule a Call',
+        text: 'Lead with Vision',
         href: '/',
       },
       hasRibbon: false,
     },
   ],
 };
+
 
 export const comparisonData: ComparisonProps = {
   header: {
