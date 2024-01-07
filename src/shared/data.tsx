@@ -200,7 +200,7 @@ export const socialProofData: SocialProofProps = {
     {
       link: 'https://mocha-psi.vercel.app/',
       src: MochaLogo,
-      alt: 'Mocha',
+      alt: 'Code Equity',
     },
   ],
 };
