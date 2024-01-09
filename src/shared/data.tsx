@@ -100,10 +100,6 @@ export const headerData: HeaderProps = {
           href: '/pricing',
         },
         {
-          label: 'Projects',
-          href: '/blog',
-        },
-        {
           label: 'Privacy Policy',
           href: '/privacy',
         },

@@ -6,7 +6,7 @@ import Link from 'next/link';
 import { findLatestPosts } from '~/utils/posts';
 
 export const metadata: Metadata = {
-  title: 'Blog',
+  title: 'Projects',
 };
 
 export default async function Home({}) {
