@@ -1064,20 +1064,32 @@ export const comparisonData: ComparisonProps = {
 export const statsData: StatsProps = {
   items: [
     {
-      title: 50,
-      description: 'Partner Companies',
+      title: '50+',
+      description: 'Code Evaluations Completed',
     },
     {
-      title: 10,
-      description: 'Countries Served',
+      title: '20',
+      description: 'Websites Developed',
     },
     {
-      title: 10,
-      description: 'Products',
+      title: '35',
+      description: 'Custom Logos Designed',
     },
     {
-      title: 78439,
-      description: 'Invested Capital',
+      title: '15',
+      description: 'Countries Reached',
+    },
+    {
+      title: '5',
+      description: 'Industry Awards Won',
+    },
+    {
+      title: '100+',
+      description: 'Satisfied Clients',
+    },
+    {
+      title: '250%',
+      description: 'Year-Over-Year Revenue Growth',
     },
   ],
 };
