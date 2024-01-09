@@ -1079,18 +1079,6 @@ export const statsData: StatsProps = {
       title: '15',
       description: 'Countries Reached',
     },
-    {
-      title: '5',
-      description: 'Industry Awards Won',
-    },
-    {
-      title: '100+',
-      description: 'Satisfied Clients',
-    },
-    {
-      title: '250%',
-      description: 'Year-Over-Year Revenue Growth',
-    },
   ],
 };
 
