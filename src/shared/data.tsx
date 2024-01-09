@@ -20,8 +20,15 @@ import {
   IconMessages,
   IconPhoneCall,
   IconRocket,
+  IconSettings,
+  IconChartBar,
   IconRss,
   IconStar,
+  IconWorld,
+  IconCode,
+  IconBrain,
+  IconDeviceLaptop,
+  IconAdjustments,
 } from '@tabler/icons-react';
 import {
   AnnouncementProps,
@@ -93,6 +100,10 @@ export const headerData: HeaderProps = {
           href: '/pricing',
         },
         {
+          label: 'Projects',
+          href: '/blog',
+        },
+        {
           label: 'Privacy Policy',
           href: '/privacy',
         },
@@ -157,7 +168,7 @@ export const heroData: HeroProps = {
 export const hero2Data: HeroProps = {
   title: 'Where Visionaries Thrive',
   subtitle:
-    'In the business of building legacies, our collective of companies stands testament to the belief that diversity fuels innovation. We champion entrepreneurial spirit, fostering an environment where ambition transforms into achievement. Great companies are born from great people, and we cultivate excellence with every venture under our wing.',
+    'At the forefront of technological evolution, our dedicated development team is the driving force behind our innovative ventures. Embracing the limitless possibilities of AI, we are not just building software; we are sculpting the future. Our commitment to excellence in AI development guides our journey towards creating transformative solutions for tomorrow.',
   callToAction: {
     text: 'Trusted Partners',
     href: 'https://www.linkedin.com/',
@@ -205,35 +216,33 @@ export const faqsData: FAQsProps = {
   header: {
     title: 'Frequently Asked Questions',
     subtitle:
-      'Your business aspirations deserve an expert touch. Dive into our frequently asked questions and discover how we can elevate your enterprise to new heights.',
+      'Discover how our cutting-edge technology and expertise set us apart. Explore our FAQs to learn more about our pivotal role in the tech industry.',
     highlight: 'FAQS',
   },
   items: [
     {
-      title: 'Which industries are within your area of expertise?',
-      description: `We navigate a vast spectrum of sectors, ensuring each business thrives under our specialized guidance.`,
+      title: 'What innovative technologies does Rose Development specialize in?',
+      description: `Our expertise spans advanced fields such as AI, machine learning, and blockchain, positioning us at the forefront of technological innovation.`,
     },
     {
-      title: 'How do you set yourselves apart from other management firms?',
-      description: `Rose Development transcends traditional management. Our holistic approach and dedication ensure your business is always poised for success.      `,
+      title: 'How does Rose Development drive industry-leading code equity?',
+      description: `As pioneers of the code equity project, we focus on optimizing code efficiency and quality, setting new standards in software development and analysis.`,
     },
     {
-      title: "Can businesses anticipate measurable results?",
-      description: `Indeed. Our partners consistently witness unparalleled growth, operational finesse, and leadership in their respective markets.
-
-      `,
+      title: 'What sets Rose Development apart in AI and machine learning?',
+      description: `Our unique approach combines deep learning, neural networks, and data-driven insights to create AI solutions that are both innovative and practical.`,
     },
     {
-      title: "What's the journey like when partnering with you?",
-      description: `The voyage begins with an in-depth business analysis. From there, we tailor strategies and provide unwavering support, sculpting a roadmap to success.`,
+      title: 'How does your company contribute to the future of web development?',
+      description: `We are redefining web development with our forward-thinking strategies, focusing on user experience, performance, and next-generation web technologies.`,
     },
     {
-      title: 'Is global expansion on your radar?',
-      description: `Certainly. Our expansive global network and adeptness at navigating diverse market dynamics make us the ideal ally for international endeavors.`,
+      title: 'What role does Rose Development play in global tech advancements?',
+      description: `Our global reach and collaborations enable us to drive significant advancements in tech, influencing trends and contributing to major breakthroughs.`,
     },
     {
-      title: 'How do you prioritize sustainability and ethical practices?',
-      description: `Creating success that benefits the larger ecosystem is intrinsic to our ethos. We champion eco-friendly initiatives and advocate for a conscientious business approach.`,
+      title: 'How do you integrate ethical practices in your tech solutions?',
+      description: `Ethics are integral to our process. We prioritize responsible AI, data security, and sustainable practices to ensure our technology benefits society as a whole.`,
     },
   ],
 };
@@ -482,65 +491,65 @@ export const featuresData: FeaturesProps = {
       </>
     ),
     subtitle:
-      'Driving businesses forward with unmatched expertise. Every venture thrives under our guidance. Experience passion, precision, and performance.',
+      'Pioneering in web development and AI analytics, Rose Development leads the charge in digital innovation and code equity. We bring cutting-edge solutions to the forefront of technology.',
     highlight: 'Features',
   },
   items: [
     {
-      title: 'Strategic Leadership',
+      title: 'Web Development Excellence',
       description:
-        'Our team of industry experts ensures that every business under Rose Development is steered with a visionary approach, aligning with the latest market trends and innovations.',
-      icon: IconBrandTailwind,
+        'Crafting state-of-the-art websites with a blend of aesthetics and functionality. Our development team excels in creating digital platforms that engage and inspire.',
+      icon: IconWorld, // Icon symbolizing global connectivity and web development
       link: {
         label: 'Discover now',
         href: '/',
       },
     },
     {
-      title: 'Operational Excellence',
+      title: 'Code Equity',
       description:
-        'We streamline processes, optimize resources, and employ best practices to guarantee that our managed companies are always performing at their peak.',
-      icon: IconComponents,
+        'Ensuring the highest standards in coding practices. We champion code equity, delivering clean, efficient, and scalable code that sets industry benchmarks.',
+      icon: IconCode, // Icon representing coding and development
       link: {
         label: 'Discover now',
         href: '/',
       },
     },
     {
-      title: 'Growth Catalyst',
+      title: 'AI Analytic Insights',
       description:
-        'With our vast network and strategic partnerships, businesses under our helm experience accelerated growth and expanded market reach.',
-      icon: IconListCheck,
+        'Leveraging AI for deep analytical insights. Our AI code analytic grading system evaluates and enhances code performance, driving innovation and excellence.',
+      icon: IconBrain, // Icon denoting AI and intelligence
       link: {
         label: 'Discover now',
         href: '/',
       },
     },
     {
-      title: 'Integrated Solutions',
+      title: 'Integrated Digital Solutions',
       description:
-        'From finance to human resources, marketing to supply chain management, we offer integrated solutions that cover every facet of running a successful enterprise.',
-      icon: IconRocket,
+        'Delivering comprehensive solutions for all digital needs. From UI/UX design to back-end development, we cover every aspect of creating a robust online presence.',
+      icon: IconDeviceLaptop, // Icon indicating digital solutions and technology
       link: {
         label: 'Discover now',
         href: '/',
       },
     },
     {
-      title: 'Innovation Hub',
+      title: 'Strategic IT Consultation',
       description:
-        'Staying ahead of the curve is crucial. Rose Development fosters a culture of innovation ensuring our businesses are always equipped with cutting-edge tools and strategies.',
-      icon: IconArrowsRightLeft,
+        'Providing expert IT strategy and consulting services. Our advice guides businesses through technological transformations, ensuring they stay ahead in a digital world.',
+      icon: IconAdjustments, // Icon symbolizing strategic planning and consultation
       link: {
         label: 'Discover now',
         href: '/',
       },
     },
     {
-      title: 'End-to-End Management',
+      title: 'Continuous Innovation',
       description:
-        'Our Hands-on Approach End-to-End Management means were with you every step of the way. From conceptualization to execution.',
-      icon: IconBulb,
+        'Staying ahead with constant technological evolution. Our dedication to innovation means we’re always exploring new horizons in web and AI technologies.',
+      icon: IconBulb, // Icon representing innovation and forward-thinking
       link: {
         label: 'Discover now',
         href: '/',
@@ -548,6 +557,7 @@ export const featuresData: FeaturesProps = {
     },
   ],
 };
+
 
 // Feature2 data
 export const featuresData2: FeaturesProps = {
@@ -590,38 +600,44 @@ export const featuresData3: FeaturesProps = {
   },
   items: [
     {
-      title: 'Strategic Leadership',
-      description: 'Our team of industry experts ensures that every business under Rose Development is steered with a visionary approach, aligning with the latest market trends and innovations.',
+      title: 'Advanced Tech Leadership',
+      description: 'Guiding businesses with cutting-edge technological insights, we align with emerging tech trends and drive innovation in every sector we touch.',
       icon: IconBrandTailwind,
     },
     {
-      title: 'Operational Excellence',
-      description: 'We streamline processes, optimize resources, and employ best practices to guarantee that our managed companies are always performing at their peak.',
+      title: 'Tech-Driven Operational Excellence',
+      description: 'Employing advanced technology to optimize operations, our approach ensures peak performance through automation, AI integration, and data analytics.',
       icon: IconComponents,
     },
     {
-      title: 'Growth Catalyst',
-      description: 'With our vast network and strategic partnerships, businesses under our helm experience accelerated growth and expanded market reach.',
+      title: 'Technology as a Growth Catalyst',
+      description: 'Utilizing our tech expertise and strategic partnerships, we empower businesses to scale rapidly and effectively in todays digital age.',
       icon: IconListCheck,
     },
     {
-      title: 'Integrated Solutions',
-      description: 'From finance to human resources, marketing to supply chain management, we offer integrated solutions that cover every facet of running a successful enterprise.',
-      icon: IconRocket,
+      title: 'Comprehensive Tech Solutions',
+      description: 'We provide end-to-end tech solutions, covering aspects from software development to cybersecurity, ensuring a seamless and secure technological environment.',
+      icon: IconDeviceLaptop,
     },
     {
-      title: 'Innovation Hub',
-      description:
-        'Staying ahead of the curve is crucial. Rose Development fosters a culture of innovation ensuring our businesses are always equipped with cutting-edge tools and strategies.',
-      icon: IconArrowsRightLeft,
+      title: 'Innovation and R&D Hub',
+      description: 'Our commitment to research and development places us at the vanguard of technological innovation, constantly exploring and creating future-forward solutions.',
+      icon: IconSettings,
     },
     {
-      title: 'End-to-End Management',
-      description: 'Our Hands-on Approach End-to-End Management means were with you every step of the way. From conceptualization to execution.',
-      icon: IconBulb,
+      title: 'AI-Driven Management',
+      description: 'Integrating AI into our management practices, we offer advanced analytics and intelligent decision-making tools for optimized business operations.',
+      icon: IconBrain,
     },
+    {
+      title: 'Data-Driven Strategy',
+      description: 'Leveraging big data analytics to craft strategies that are not only reactive to current trends but also predictive of future market dynamics.',
+      icon: IconChartBar,
+    },
+    // Additional items can be added here
   ],
 };
+
 
 export const contentData: ContentProps = {
   header: {
@@ -630,29 +646,31 @@ export const contentData: ContentProps = {
     highlight: 'Innovation',
   },
   content:
-    'Navigate the complexities of the corporate world with a suite of services designed for the discerning enterprise. Our strategic approach ensures your business not only meets industry standards but sets them.',
+    'Chart a course through the complexities of the digital age with our suite of high-tech services. We ensure your business is not just industry-compliant, but a trendsetter in technological innovation and digital transformation.',
   items: [
     {
-      title: 'Corporate Cultivation',
+      title: 'Digital Transformation Leadership',
       description:
-        'We provide a tailored framework for corporate growth, driving innovation with precision and guiding companies to flourish in competitive markets.',
+        'Lead the digital era with our expert guidance. We provide comprehensive strategies to digitize and modernize your operations, ensuring you stay ahead in the competitive digital landscape.',
     },
     {
-      title: 'Operational Excellence',
+      title: 'Technological Operational Excellence',
       description:
-        'Achieve peak performance with our bespoke operational strategies that streamline processes, enhance productivity, and optimize your business model for scalability.',
+        'Elevate your operations with our tech-driven solutions. Our approach enhances efficiency, integrates cutting-edge technologies, and scales your business for the future.',
     },
     {
-      title: 'Investment in Quality',
+      title: 'Commitment to Tech Innovation',
       description:
-        'Our commitment to quality is unwavering. We invest in research and development to foster high-caliber practices that yield sustainable success and client satisfaction.',
+        'Our investment goes beyond quality; its a commitment to continuous technological innovation. We focus on R&D to bring groundbreaking tech advancements to our clients, ensuring long-term success and distinction in the market.',
     },
   ],
   image: {
     src: contentOne,
     alt: 'Colorful Image',
   },
-}
+};
+
+
 
 
 export const content2Data: ContentProps = {
@@ -1230,7 +1248,7 @@ export const contact2Data: ContactProps = {
 
 // Footer data
 export const footerData: FooterProps = {
-  title: 'TailNext',
+  title: 'Rose Developement',
   links: [
     {
       label: 'Terms & Conditions',
