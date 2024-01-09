@@ -3,7 +3,7 @@ publishDate: 'January 1, 2024'
 title: 'Code Equity: The Future of Tech Innovation'
 description: 'Discover the groundbreaking project set to redefine the technological landscape.'
 excerpt: 'Embark on a journey with us into the future of tech, where Code Equity is reshaping how we think about technology and innovation.'
-image: src/assets/images/codeequits.jpg
+image: /src/assets/images/codeequits.jpg
 tags: [code equity, innovation, future technology, confidential project]
 
 ---
