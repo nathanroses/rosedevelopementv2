@@ -678,22 +678,22 @@ export const content2Data: ContentProps = {
     'Navigating the future with clarity and insight, we provide the tools and expertise for businesses to excel in an ever-changing corporate landscape.',
   items: [
     {
-      title: 'Innovative Funding Strategies',
+      title: 'Next-Gen Tech Deployment',
     },
     {
-      title: 'Predictive Analytics in Market Leadership',
+      title: 'AI-Driven Business Optimization',
     },
     {
-      title: 'Blockchain for Business Transparency',
+      title: 'Cutting-Edge Digital Infrastructure',
     },
     {
-      title: 'Consumer Insights and Engagement Models',
+      title: 'Revolutionary User Experience Design',
     },
     {
-      title: 'Sustainable Practices in Corporate Growth',
+      title: 'Sustainable Innovation in Tech',
     },
     {
-      title: 'Cybersecurity in the Age of Digital Transactions',
+      title: 'Advanced Security in FinTech',
     },
   ],
   image: {
