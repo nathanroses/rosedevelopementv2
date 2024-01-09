@@ -58,6 +58,7 @@ import TiceLogo from '~/assets/images/tice.png';
 import AurioLogo from '~/assets/images/aurio.png';
 import TleLogo from '~/assets/images/tle.png';
 import MochaLogo from '~/assets/images/mocha.png';
+import AirtecLogo from '~/assets/images/airtec.png';
 import kaws1 from '~/assets/images/kaws1.png';
 import kaws2 from '~/assets/images/kaws2.png';
 import kaws3 from '~/assets/images/kaws3.png';
@@ -180,12 +181,12 @@ export const socialProofData: SocialProofProps = {
     {
       link: 'https://ticeservicesllc.com/',
       src: TiceLogo,
-      alt: 'Mochas',
+      alt: 'Tice Services',
     },
     {
-      link: 'https://quil-orpin.vercel.app/',
-      src: AurioLogo,
-      alt: 'Aurio',
+      link: 'https://www.airtec-usa.com/',
+      src: AirtecLogo,
+      alt: 'Airtec',
     },
     {
       link: 'https://theleadingedge-production.up.railway.app/',
@@ -193,7 +194,7 @@ export const socialProofData: SocialProofProps = {
       alt: 'The Leading Edge',
     },
     {
-      link: 'https://mocha-psi.vercel.app/',
+      link: 'https://quil-orpin.vercel.app/',
       src: MochaLogo,
       alt: 'Code Equity',
     },
@@ -362,36 +363,37 @@ export const faqs4Data: FAQsProps = {
     },
     {
       link: {
-        label: 'Plans, prices and payments',
+        label: 'Plans, Prices, and Payments',
         href: '/tab2',
-      },
-      items: [
-        {
-          title: 'Which plan is best for me?',
-          description: `Nunc mollis tempor quam, non fringilla elit sagittis in. Nullam vitae consectetur mi, a elementum arcu. Sed laoreet, ipsum et vehicula dignissim, leo orci pretium sem, ac condimentum tellus est quis ligula.`,
-        },
-        {
-          title: 'What are my payment options?',
-          description: `Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer eleifend vestibulum nisl in iaculis. Mauris dictum ac purus vestibulum auctor. Praesent imperdiet lectus et massa faucibus, quis viverra massa rhoncus.`,
-        },
-        {
-          title: 'How do I change my plan to a different one?',
-          description: `Mauris vitae eros a dui varius luctus. Suspendisse rutrum, sapien nec blandit bibendum, justo sapien sollicitudin erat, id aliquam sapien purus quis leo. Aliquam vulputate vestibulum consectetur.`,
-        },
-        {
-          title: 'What happen at the end of my free trial?',
-          description: `Nunc dapibus lacinia ipsum ut elementum. Integer in pretium sapien. Ut pretium nisl mauris, ut rutrum justo condimentum id. Etiam aliquet, arcu at iaculis laoreet, est arcu egestas sapien, eget sollicitudin odio orci et nunc.`,
-        },
-        {
-          title: 'Can I import data from other tools?',
-          description: `Duis in maximus mauris, id eleifend mauris. Nam a fringilla arcu. Curabitur convallis, tellus non aliquet rhoncus, lacus massa auctor eros, in interdum lectus augue sed augue. Fusce tempor ex id faucibus efficitur.`,
-        },
-        {
-          title: 'Can I cancel my plan at any time?',
-          description: `Nullam imperdiet sapien tincidunt erat dapibus faucibus. Vestibulum a sem nec lorem imperdiet scelerisque non sed lacus. Ut pulvinar id diam vitae auctor. Nam tempus, neque et elementum consectetur, ex ipsum pulvinar risus, vel sodales ligula tortor eu eros.`,
-        },
-      ],
     },
+    items: [
+        {
+            title: 'Selecting the Right Plan for Your Business Needs',
+            description: `Explore a range of plans designed to suit different business scales and requirements. Whether you're a start-up or a well-established enterprise, our plans offer flexibility and scalability to meet your evolving business needs.`,
+        },
+        {
+            title: 'Diverse Payment Options for Convenience',
+            description: `We provide multiple payment methods, including credit cards, bank transfers, and digital wallets, to ensure ease of transaction. Our secure payment gateway ensures safe and hassle-free processing.`,
+        },
+        {
+            title: 'Seamless Plan Transition for Growing Businesses',
+            description: `Easily upgrade or change your plan as your business needs evolve. Our support team is here to assist with a smooth transition, ensuring no disruption to your services.`,
+        },
+        {
+            title: 'Maximizing Value Post-Trial',
+            description: `After your free trial, choose the plan that best fits your business. Our team can guide you through the options, ensuring you make the most of our services.`,
+        },
+        {
+            title: 'Effortless Data Integration from Various Tools',
+            description: `Seamlessly import data from other platforms and tools into our system. Our solution is designed for compatibility and ease, simplifying your transition to our services.`,
+        },
+        {
+            title: 'Flexible Cancellation Policy',
+            description: `We understand business needs can change. Our cancellation policy is designed to be flexible, allowing you to make decisions that are best for your business without long-term commitments.`,
+        },
+    ],
+    },
+    
     {
       link: {
         label: 'Others',
