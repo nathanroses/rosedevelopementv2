@@ -58,6 +58,7 @@ import TherosaLogo from '~/assets/images/THEROSAV2.png';
 import AurioLogo from '~/assets/images/aurio.png';
 import TleLogo from '~/assets/images/tle.png';
 import MochaLogo from '~/assets/images/mocha.png';
+import Mochas from '~/assets/images/mochas.png';
 import kaws1 from '~/assets/images/kaws1.png';
 import kaws2 from '~/assets/images/kaws2.png';
 import kaws3 from '~/assets/images/kaws3.png';
@@ -179,8 +180,8 @@ export const socialProofData: SocialProofProps = {
   images: [
     {
       link: 'https://therosa-seven.vercel.app/',
-      src: TherosaLogo,
-      alt: 'Therosa',
+      src: Mochas,
+      alt: 'Mochas',
     },
     {
       link: 'https://gzxg3h.csb.app/',
@@ -188,7 +189,7 @@ export const socialProofData: SocialProofProps = {
       alt: 'Aurio',
     },
     {
-      link: 'https://theleadingedgeinc.com/',
+      link: 'https://theleadingedge-production.up.railway.app/',
       src: TleLogo,
       alt: 'The Leading Edge',
     },
