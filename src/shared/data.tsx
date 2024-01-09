@@ -131,7 +131,7 @@ export const heroData: HeroProps = {
         <span className="font-semibold underline decoration-wavy decoration-1 underline-offset-2">
           Rose Development
         </span>{' '}
-        Offering Comprehensive Technology and Business Strategies, Tailored for Global Growth and Sustainability. Specializing in AI-Driven Innovation, Cross-Industry Collaboration, and Transformative Leadership for Multifaceted Enterprises.
+       Elevating Business and Technology Solutions for Global Expansion and Sustainable Success. Excelling in AI-Enabled Innovation, Intersectoral Synergy, and Pioneering Leadership for Diverse Corporate Ecosystems.
       </span>{' '}
 
     </>
