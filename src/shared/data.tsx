@@ -1063,19 +1063,19 @@ export const comparisonData: ComparisonProps = {
 export const statsData: StatsProps = {
   items: [
     {
-      title: '50+',
+      title: 50,
       description: 'Code Evaluations Completed',
     },
     {
-      title: '20',
+      title: 20,
       description: 'Websites Developed',
     },
     {
-      title: '35',
+      title: 35,
       description: 'Custom Logos Designed',
     },
     {
-      title: '15',
+      title: 15,
       description: 'Countries Reached',
     },
   ],
