@@ -55,7 +55,6 @@ import ProfileOne from '~/assets/images/ProfileOne.png';
 import ProfileTwo from '~/assets/images/ProfileTwo.png';
 import ProfileThree from '~/assets/images/ProfileThree.png';
 import TiceLogo from '~/assets/images/tice.png';
-import AurioLogo from '~/assets/images/aurio.png';
 import TleLogo from '~/assets/images/tle.png';
 import MochaLogo from '~/assets/images/mocha.png';
 import AirtecLogo from '~/assets/images/airtec.png';
