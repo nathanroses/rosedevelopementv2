@@ -54,11 +54,10 @@ import SilverBar from '~/assets/images/silverbar.png';
 import ProfileOne from '~/assets/images/ProfileOne.png';
 import ProfileTwo from '~/assets/images/ProfileTwo.png';
 import ProfileThree from '~/assets/images/ProfileThree.png';
-import TherosaLogo from '~/assets/images/THEROSAV2.png';
+import TiceLogo from '~/assets/images/tice.png';
 import AurioLogo from '~/assets/images/aurio.png';
 import TleLogo from '~/assets/images/tle.png';
 import MochaLogo from '~/assets/images/mocha.png';
-import Mochas from '~/assets/images/mochas.png';
 import kaws1 from '~/assets/images/kaws1.png';
 import kaws2 from '~/assets/images/kaws2.png';
 import kaws3 from '~/assets/images/kaws3.png';
@@ -179,12 +178,12 @@ export const hero2Data: HeroProps = {
 export const socialProofData: SocialProofProps = {
   images: [
     {
-      link: 'https://therosa-seven.vercel.app/',
-      src: Mochas,
+      link: 'https://ticeservicesllc.com/',
+      src: TiceLogo,
       alt: 'Mochas',
     },
     {
-      link: 'https://gzxg3h.csb.app/',
+      link: 'https://quil-orpin.vercel.app/',
       src: AurioLogo,
       alt: 'Aurio',
     },
