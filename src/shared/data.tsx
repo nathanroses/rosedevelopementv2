@@ -706,23 +706,23 @@ export const stepsData = {
   title: 'A Journey of Innovation',
   items: [
     {
-      title: 'Initiate',
-      description: 'Collaborate closely with our team, setting the stage for an extraordinary venture.',
+      title: 'Inspire',
+      description: 'Engage with our elite team to embark on a groundbreaking journey, laying the foundation for a transformative venture in the realm of Code Equity.',
       icon: IconArrowDown
     },
     {
-      title: 'Craft & Construct',
-      description: 'Watch as we transform your ideas into tangible solutions, ensuring every detail is perfect.',
+      title: 'Blueprint',
+      description: 'Experience the meticulous process as we meticulously shape your concepts into cutting-edge solutions, embodying the essence of innovation and technical precision.',
       icon: IconArrowDown
     },
     {
       title: 'Optimize & Perfect',
-      description: 'Through rigorous testing and iterations, we ensure the outcome is primed for the market.',
+      description: 'Through our thorough refinement and optimization process, we ensure that every aspect of the project is honed to excellence, meeting the high standards of Code Equity.',
       icon: IconArrowDown
     },
     {
-      title: 'Elevate!',
-      description: 'Revel in the realization of your vision, reaching new heights of success.',
+      title: 'Elevate',
+      description: 'Celebrate as your vision comes to fruition, catapulted by Rose Developments expertise, marking a new era of success and technological advancement.',
       icon: IconCheck
     }
   ],
