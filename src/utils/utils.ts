@@ -1,6 +1,5 @@
-// Function to format a number in thousands (K) or millions (M) format depending on its value
 export const toUiAmount = (amount: number) => {
-  if (!amount) return 0;
+  if (typeof amount !== 'number' || isNaN(amount)) return 0;
 
   let value;
 
