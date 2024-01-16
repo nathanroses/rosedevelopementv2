@@ -73,11 +73,11 @@ import kaws4 from '~/assets/images/kaws4.png';
 export const announcementData: AnnouncementProps = {
   title: 'NEW',
   callToAction: {
-    text: 'Q1 Update: Code Equity is out now experience precision and performance »',
+    text: 'Q1 Update: Discover Custom Tech Solutions for Your Business',
     href: 'https://nextjs.org/docs/app',
   },
   callToAction2: {
-    text: 'Follow @rosedevelopement on Twitter',
+    text: 'Connect with Rose Development on Twitter',
     href: 'https://twitter.com/home?lang=en',
   },
 };
@@ -94,7 +94,7 @@ export const headerData: HeaderProps = {
           href: '/about',
         },
         {
-          label: 'Products',
+          label: 'Plans',
           href: '/pricing',
         },
         {
@@ -122,23 +122,18 @@ export const headerData: HeaderProps = {
 export const heroData: HeroProps = {
   title: (
     <>
-      Unified platform <span className="hidden md:inline">for diverse corporate</span> <span>ventures</span> 
+     Revolutionizing Business <span className="hidden md:inline">with Customized Tech Innovations</span> 
       <span className="sm:whitespace-nowrap"></span>
     </>
   ),
   subtitle: (
     <>
-      <span className="hidden md:inline">
-        <span className="font-semibold underline decoration-wavy decoration-1 underline-offset-2">
-          Rose Development
-        </span>{' '}
-       Elevating Business and Technology Solutions for Global Expansion and Sustainable Success. Excelling in AI-Enabled Innovation, Intersectoral Synergy, and Pioneering Leadership for Diverse Corporate Ecosystems.
-      </span>{' '}
-
+      Welcome to <span className="font-semibold underline decoration-wavy decoration-1 underline-offset-2">
+      Rose Development</span>. We are not just developers; we are partners in your digital transformation journey. Specializing in AI-driven solutions and bespoke web and app development, we align technology with your unique business vision.
     </>
   ),
   callToAction: {
-    text: 'Our Portfolio',
+    text: 'Our Client List',
     href: '/blog',
     icon: IconStar,
     targetBlank: true,
@@ -179,7 +174,7 @@ export const hero2Data: HeroProps = {
 export const socialProofData: SocialProofProps = {
   images: [
     {
-      link: 'https://quil-orpin.vercel.app/',
+      link: 'https://code-equity.com/',
       src: MochaLogo,
       alt: 'Code Equity',
     },
@@ -188,7 +183,7 @@ export const socialProofData: SocialProofProps = {
       src: TleLogo,
       alt: 'The Leading Edge',
     },   {
-      link: 'https://theleadingedge-production.up.railway.app/',
+      link: 'https://hilink-pp2xzvkkr-nathanroses-projects.vercel.app',
       src: TstyleLogo,
       alt: 'The Leading Edge',
     },
@@ -626,100 +621,101 @@ export const featuresData3: FeaturesProps = {
 
 export const contentData: ContentProps = {
   header: {
-    title: 'Strategic Evolution',
-    subtitle: 'Refining Business Landscapes',
-    highlight: 'Innovation',
+    title: 'Tailored Tech Innovation',
+    subtitle: 'Crafting Your Digital Future',
+    highlight: 'Customization',
   },
   content:
-    'Chart a course through the complexities of the digital age with our suite of high-tech services. We ensure your business is not just industry-compliant, but a trendsetter in technological innovation and digital transformation.',
+    'At Rose Development, we specialize in transforming your business vision into digital reality. Our focus is on delivering bespoke tech solutions that are not only industry-compliant but also innovative and trendsetting.',
   items: [
     {
-      title: 'Digital Transformation Leadership',
+      title: 'Bespoke Digital Solutions',
       description:
-        'Lead the digital era with our expert guidance. We provide comprehensive strategies to digitize and modernize your operations, ensuring you stay ahead in the competitive digital landscape.',
+        'We don’t just build; we create. Specializing in customized web and app development, we ensure your digital presence is unique, engaging, and tailored to your specific business needs.',
     },
     {
-      title: 'Technological Operational Excellence',
+      title: 'Operational Excellence through Technology',
       description:
-        'Elevate your operations with our tech-driven solutions. Our approach enhances efficiency, integrates cutting-edge technologies, and scales your business for the future.',
+        'Our tech-driven approach streamlines your operations, integrating the latest technologies to enhance efficiency and scalability. We empower your business to thrive in today’s digital ecosystem.',
     },
     {
-      title: 'Commitment to Tech Innovation',
+      title: 'Pioneering in Tech Innovation',
       description:
-        'Our investment goes beyond quality; its a commitment to continuous technological innovation. We focus on R&D to bring groundbreaking tech advancements to our clients, ensuring long-term success and distinction in the market.',
+        'Innovation is at the core of what we do. From AI solutions to advanced web technologies, our commitment to research and development puts cutting-edge tools in your hands, driving your business forward.',
     },
   ],
   image: {
     src: contentOne,
-    alt: 'Colorful Image',
+    alt: 'Innovative Digital Solutions',
   },
 };
 
 
 
-
 export const content2Data: ContentProps = {
   content:
-    'Navigating the future with clarity and insight, we provide the tools and expertise for businesses to excel in an ever-changing corporate landscape.',
+    'Empowering Your Enterprise in the Digital Age with Advanced Solutions.',
   items: [
     {
-      title: 'Next-Gen Tech Deployment',
+      title: 'Innovative Tech Implementation',
     },
     {
-      title: 'AI-Driven Business Optimization',
+      title: 'AI & Machine Learning Integration',
     },
     {
-      title: 'Cutting-Edge Digital Infrastructure',
+      title: 'Robust Digital Ecosystems',
     },
     {
-      title: 'Revolutionary User Experience Design',
+      title: 'User-Centric Design Excellence',
     },
     {
-      title: 'Sustainable Innovation in Tech',
+      title: 'Eco-Friendly Tech Innovations',
     },
     {
-      title: 'Advanced Security in FinTech',
+      title: 'Secure FinTech Solutions',
     },
   ],
   image: {
     src: contentTwo,
-    alt: 'Futuristic Business Landscape',
+    alt: 'Advanced Business Technology',
   },
   isReversed: true,
   isAfterContent: true,
 };
 
 
+
 // Steps data
 export const stepsData = {
-  title: 'A Journey of Innovation',
+  title: 'Your Project, Our Passion',
   items: [
     {
-      title: 'Inspire',
-      description: 'Engage with our elite team to embark on a groundbreaking journey, laying the foundation for a transformative venture in the realm of Code Equity.',
+      title: 'Consult & Conceptualize',
+      description: 'Begin your journey with a detailed consultation, where we understand your vision and goals, setting the stage for a tailored tech solution.',
       icon: IconArrowDown
     },
     {
-      title: 'Blueprint',
-      description: 'Experience the meticulous process as we meticulously shape your concepts into cutting-edge solutions, embodying the essence of innovation and technical precision.',
+      title: 'Design & Develop',
+      description: 'Transitioning from ideas to action, our team designs and develops your project, focusing on functionality, aesthetics, and user experience.',
       icon: IconArrowDown
     },
     {
-      title: 'Optimize & Perfect',
-      description: 'Through our thorough refinement and optimization process, we ensure that every aspect of the project is honed to excellence, meeting the high standards of Code Equity.',
+      title: 'Test & Refine',
+      description: 'Quality is key. We meticulously test and refine the product, ensuring it not only meets but exceeds industry standards and your expectations.',
       icon: IconArrowDown
     },
     {
-      title: 'Elevate',
-      description: 'Celebrate as your vision comes to fruition, catapulted by Rose Developments expertise, marking a new era of success and technological advancement.',
+      title: 'Launch & Support',
+      description: 'The final step is a successful launch. We dont just deliver; we provide ongoing support to ensure continuous performance and satisfaction.',
       icon: IconCheck
     }
   ],
   image: {
     src: gasImg,
-    alt: 'Innovative Journey Image'
+    alt: 'Project Development Process'
   }
 };
+
 
 
 // Team data
@@ -782,8 +778,8 @@ export const teamData: TeamProps = {
       ],
     },
     {
-      name: 'Joe Becker',
-      occupation: 'General Counsel',
+      name: 'Joe Moceri',
+      occupation: 'Full Stack Developer',
       image: {
         src: kaws3,
         alt: 'Clark Bourne',
@@ -807,7 +803,7 @@ export const teamData: TeamProps = {
       ],
     },
     {
-      name: 'Awais',
+      name: 'Samantha Peterson',
       occupation: 'Designer',
       image: {
         src: kaws4,
@@ -884,57 +880,53 @@ export const testimonialData: TestimonialProps = {
 
 export const pricingData: PricingProps = {
   header: {
-    title: 'Elevate Your Business',
+    title: 'Customized Technology Solutions',
     subtitle:
-      'Advance your enterprise with cutting-edge technology solutions and strategic partnerships. Our packages are crafted to enhance your technological capabilities and drive global innovation.',
+      'Tailored services for every business need. Whether you’re tech-savvy or new to digital solutions, we guide your journey towards technological excellence.',
   },
   prices: [
     {
-      title: 'Innovator',
+      title: 'Bespoke Web & App Development',
       icon: SilverBar,
-      period: 'Startups & Tech Pioneers',
+      period: 'Ideal for Startups & SMEs',
       texts: [
-        'AI and technology readiness assessment',
-        'Quarterly tech trend insights and reviews',
-        'Basic digital transformation strategy',
+        'Custom website and mobile app development tailored to your unique business requirements',
+        'User experience design focused on engagement and conversion',
+        'Continuous support and updates to keep your digital presence ahead of the curve',
       ],
       callToAction: {
-        text: 'Embark on Innovation',
+        text: 'Get Started with Custom Development',
         href: '/',
       },
       hasRibbon: false,
     },
     {
-      title: 'Accelerator',
+      title: 'AI-Driven Business Transformation',
       icon: GoldBar,
-      period: 'Growing Tech-Driven Businesses',
+      period: 'Perfect for Growing Enterprises',
       texts: [
-        'Comprehensive tech ecosystem analysis',
-        'Monthly innovation strategy sessions',
-        'Access to exclusive tech development tools and platforms',
-        'Networking with industry leaders and tech experts',
-        'Priority tech support and consultation',
+        'Integration of AI and machine learning to automate and optimize business processes',
+        'Personalized AI solutions like chatbots to enhance customer interaction',
+        'Data analytics for insightful business decision-making and strategy development',
       ],
       callToAction: {
-        text: 'Accelerate Growth',
+        text: 'Transform Your Business with AI',
         href: '/',
       },
       hasRibbon: true,
       ribbonTitle: 'Most Popular',
     },
     {
-      title: 'Visionary',
+      title: 'Comprehensive Tech Overhaul',
       icon: GreenBar,
-      period: 'Established Tech Leaders',
+      period: 'For Established Businesses',
       texts: [
-        'Advanced business and tech landscape analysis',
-        'Custom AI and tech strategy development',
-        'Weekly executive tech innovation meetings',
-        'Dedicated tech advisor for ongoing support and insights',
-        'Exclusive access to emerging tech and AI advancements',
+        'Complete digital transformation strategy encompassing all tech aspects of your business',
+        'Advanced analytics and bespoke software solutions for operational excellence',
+        'Long-term tech partnership for continuous innovation and growth',
       ],
       callToAction: {
-        text: 'Lead with Vision',
+        text: 'Revolutionize with Tech',
         href: '/',
       },
       hasRibbon: false,
@@ -945,115 +937,114 @@ export const pricingData: PricingProps = {
 
 export const comparisonData: ComparisonProps = {
   header: {
-    title: "Explore Our Service Plans",
+    title: "Customized Service Plans",
     subtitle:
-      'Tailored to address the multifaceted nature of business management, our service plans are crafted to support your company’s growth and operational excellence.',
-    // highlight: 'Comparison',
+      'From startups to established corporations, our flexible service plans are designed to cater to your unique business challenges and aspirations.',
   },
   columns: [
     {
       title: 'Service Features',
       items: [
         {
-          title: 'Company Analysis',
+          title: 'Customized Business Analysis',
         },
         {
-          title: 'Operational Support',
+          title: 'Tech-Driven Operational Support',
         },
         {
-          title: 'Strategic Planning',
+          title: 'Strategic Planning with AI Insights',
         },
         {
-          title: 'Risk Management',
+          title: 'Comprehensive Risk Management',
         },
         {
-          title: 'Financial Advisory',
+          title: 'Financial Advisory for Growth',
         },
         {
-          title: 'Leadership Training',
+          title: 'Leadership Development & Training',
         },
       ],
     },
     {
-      title: 'Basic',
+      title: 'Startup Growth',
       items: [
         {
-          title: 'Essential Insights',
+          title: 'Focused Business Insights',
         },
         {
-          title: 'Email Guidance',
+          title: 'Email & Chat Support',
         },
         {
-          title: 'Standard Strategies',
+          title: 'Dynamic Strategic Frameworks',
         },
         {
-          title: 'Basic Risk Assessment',
+          title: 'Risk Assessment & Mitigation Strategies',
         },
         {
-          title: 'Financial Best Practices',
+          title: 'Financial Planning and Analysis',
         },
         {
-          title: 'Online Workshops',
+          title: 'Interactive Online Leadership Workshops',
         },
       ],
       callToAction: {
-        text: 'Learn More',
+        text: 'Explore Startup Plans',
         href: '/basic-plan',
         btnType: 'primary',
       },
     },
     {
-      title: 'Standard',
+      title: 'Business Expansion',
       items: [
         {
-          title: 'Comprehensive Analysis',
+          title: 'In-depth Market & Internal Analysis',
         },
         {
-          title: 'Dedicated Support',
+          title: 'Dedicated Account Manager',
         },
         {
-          title: 'Enhanced Planning',
+          title: 'Enhanced Strategic Development',
         },
         {
-          title: 'Integrated Risk Management',
+          title: 'Integrated Risk Management Solutions',
         },
         {
-          title: 'In-Depth Financial Consulting',
+          title: 'Advanced Financial Consulting',
         },
         {
-          title: 'Live Seminars',
+          title: 'Exclusive Leadership Seminars',
         },
       ],
       callToAction: {
-        text: 'Discover More',
+        text: 'Grow Your Business',
         href: '/standard-plan',
         btnType: 'primary',
       },
     },
     {
-      title: 'Premium',
+      title: 'Enterprise Excellence',
       items: [
         {
-          title: 'Full-Spectrum Analysis',
+          title: 'Holistic Organizational Analysis',
         },
         {
-          title: 'Complete Operational Support',
+          title: 'Full-Scale Operational Support',
         },
         {
-          title: 'Advanced Strategic Planning',
+          title: 'Advanced Strategic Planning with AI Integration',
         },
         {
-          title: 'Comprehensive Risk Solutions',
+          title: 'End-to-End Risk Management Frameworks',
         },
         {
-          title: 'Custom Financial Advisory',
+          title: 'Bespoke Financial Advisory Services',
         },
         {
-          title: 'Executive Coaching',
+          title: 'Executive Coaching & Leadership Development',
         },
       ],
       callToAction: {
-        text: 'Join Now',
+        text: 'Achieve Operational Excellence',
         href: '/premium-plan',
         btnType: 'primary',
       },
@@ -1066,23 +1057,24 @@ export const comparisonData: ComparisonProps = {
 export const statsData: StatsProps = {
   items: [
     {
-      title: 50,
-      description: 'Code Evaluations Completed',
+      title: 45,
+      description: 'Successful Projects Delivered',
     },
     {
-      title: 20,
-      description: 'Websites Developed',
+      title: 30,
+      description: 'Websites and Apps Developed',
     },
     {
       title: 35,
-      description: 'Custom Logos Designed',
+      description: 'Branding and Logo Designs Completed',
     },
     {
-      title: 15,
-      description: 'Countries Reached',
+      title: 20,
+      description: 'Countries with Client Engagement',
     },
   ],
 };
+
 
 // Contact data
 export const contactData: ContactProps = {
