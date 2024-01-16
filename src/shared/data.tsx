@@ -45,7 +45,6 @@ import {
   StatsProps,
   TeamProps,
   TestimonialProps,
-  CaseStudiesProps,
 } from './types';
 
 //Import of Images
