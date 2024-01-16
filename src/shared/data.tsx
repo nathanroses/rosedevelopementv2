@@ -939,53 +939,28 @@ export const comparisonData: ComparisonProps = {
   header: {
     title: "Customized Service Plans",
     subtitle:
-      'From startups to established corporations, our flexible service plans are designed to cater to your unique business challenges and aspirations.',
+      'Tailored to meet the evolving needs of businesses from diverse sectors.',
   },
   columns: [
     {
       title: 'Service Features',
       items: [
-        {
-          title: 'Customized Business Analysis',
-        },
-        {
-          title: 'Tech-Driven Operational Support',
-        },
-        {
-          title: 'Strategic Planning with AI Insights',
-        },
-        {
-          title: 'Comprehensive Risk Management',
-        },
-        {
-          title: 'Financial Advisory for Growth',
-        },
-        {
-          title: 'Leadership Development & Training',
-        },
+        { title: 'Business Analysis' },
+        { title: 'Operational Support' },
+        { title: 'Strategic Planning' },
+        { title: 'Risk Management' },
+        { title: 'Financial Advisory' },
+        { title: 'Leadership Training' },
       ],
     },
     {
-      title: 'Startup Growth',
+      title: 'Startup Essentials',
       items: [
-        {
-          title: 'Focused Business Insights',
-        },
-        {
-          title: 'Email & Chat Support',
-        },
-        {
-          title: 'Dynamic Strategic Frameworks',
-        },
-        {
-          title: 'Risk Assessment & Mitigation Strategies',
-        },
-        {
-          title: 'Financial Planning and Analysis',
-        },
-        {
-          title: 'Interactive Online Leadership Workshops',
-        },
+        { title: 'Core Business Insights' },
+        { title: 'Email Support' },
+        { title: 'Strategic Frameworks' },
+        { title: 'Basic Risk Assessment' },
+        { title: 'Financial Planning' },
       ],
       callToAction: {
         text: 'Explore Startup Plans',
@@ -994,26 +969,13 @@ export const comparisonData: ComparisonProps = {
       },
     },
     {
-      title: 'Business Expansion',
+      title: 'Growth & Development',
       items: [
-        {
-          title: 'In-depth Market & Internal Analysis',
-        },
-        {
-          title: 'Dedicated Account Manager',
-        },
-        {
-          title: 'Enhanced Strategic Development',
-        },
-        {
-          title: 'Integrated Risk Management Solutions',
-        },
-        {
-          title: 'Advanced Financial Consulting',
-        },
-        {
-          title: 'Exclusive Leadership Seminars',
-        },
+        { title: 'Detailed Market Analysis' },
+        { title: 'Dedicated Support' },
+        { title: 'Advanced Strategic Planning' },
+        { title: 'Integrated Risk Solutions' },
+        { title: 'In-Depth Financial Consulting' },
       ],
       callToAction: {
         text: 'Grow Your Business',
@@ -1022,26 +984,14 @@ export const comparisonData: ComparisonProps = {
       },
     },
     {
-      title: 'Enterprise Excellence',
+      title: 'Corporate Excellence',
       items: [
-        {
-          title: 'Holistic Organizational Analysis',
-        },
-        {
-          title: 'Full-Scale Operational Support',
-        },
-        {
-          title: 'Advanced Strategic Planning with AI Integration',
-        },
-        {
-          title: 'End-to-End Risk Management Frameworks',
-        },
-        {
-          title: 'Bespoke Financial Advisory Services',
-        },
-        {
-          title: 'Executive Coaching & Leadership Development',
-        },
+        { title: 'Comprehensive Organizational Analysis' },
+        { title: 'Full Operational Support' },
+        { title: 'Elite Strategic Planning' },
+        { title: 'Comprehensive Risk Management' },
+        { title: 'Bespoke Financial Advisory' },
+        { title: 'Executive Leadership Development' },
       ],
       callToAction: {
         text: 'Achieve Operational Excellence',
@@ -1051,6 +1001,7 @@ export const comparisonData: ComparisonProps = {
     },
   ],
 };
+
 
 
 // Stats
