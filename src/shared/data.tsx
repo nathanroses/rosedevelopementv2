@@ -895,7 +895,7 @@ export const pricingData: PricingProps = {
         'Continuous support and updates to keep your digital presence ahead of the curve',
       ],
       callToAction: {
-        text: 'Get Started with Custom Development',
+        text: '$500+',
         href: '/',
       },
       hasRibbon: false,
@@ -910,11 +910,11 @@ export const pricingData: PricingProps = {
         'Data analytics for insightful business decision-making and strategy development',
       ],
       callToAction: {
-        text: 'Transform Your Business with AI',
+        text: '$1000+',
         href: '/',
       },
       hasRibbon: true,
-      ribbonTitle: 'Most Popular',
+      ribbonTitle: 'Trending',
     },
     {
       title: 'Comprehensive Tech Overhaul',
@@ -926,7 +926,7 @@ export const pricingData: PricingProps = {
         'Long-term tech partnership for continuous innovation and growth',
       ],
       callToAction: {
-        text: 'Revolutionize with Tech',
+        text: '$5000+',
         href: '/',
       },
       hasRibbon: false,
@@ -937,9 +937,8 @@ export const pricingData: PricingProps = {
 
 export const comparisonData: ComparisonProps = {
   header: {
-    title: "Customized Service Plans",
-    subtitle:
-      'Tailored to meet the evolving needs of businesses from diverse sectors.',
+    title: "Service Plans Tailored for You",
+    subtitle: 'Select the perfect plan for your business needs.',
   },
   columns: [
     {
@@ -956,11 +955,12 @@ export const comparisonData: ComparisonProps = {
     {
       title: 'Startup Essentials',
       items: [
-        { title: 'Core Business Insights' },
-        { title: 'Email Support' },
-        { title: 'Strategic Frameworks' },
-        { title: 'Basic Risk Assessment' },
-        { title: 'Financial Planning' },
+        { title: 'Yes' }, // Business Analysis
+        { title: 'Yes' }, // Operational Support
+        { title: 'Yes' }, // Strategic Planning
+        { title: 'No' },  // Risk Management
+        { title: 'No' },  // Financial Advisory
+        { title: 'No' },  // Leadership Training
       ],
       callToAction: {
         text: 'Explore Startup Plans',
@@ -971,11 +971,12 @@ export const comparisonData: ComparisonProps = {
     {
       title: 'Growth & Development',
       items: [
-        { title: 'Detailed Market Analysis' },
-        { title: 'Dedicated Support' },
-        { title: 'Advanced Strategic Planning' },
-        { title: 'Integrated Risk Solutions' },
-        { title: 'In-Depth Financial Consulting' },
+        { title: 'Yes' }, // Business Analysis
+        { title: 'Yes' }, // Operational Support
+        { title: 'Yes' }, // Strategic Planning
+        { title: 'Yes' }, // Risk Management
+        { title: 'Yes' }, // Financial Advisory
+        { title: 'No' },  // Leadership Training
       ],
       callToAction: {
         text: 'Grow Your Business',
@@ -986,12 +987,12 @@ export const comparisonData: ComparisonProps = {
     {
       title: 'Corporate Excellence',
       items: [
-        { title: 'Comprehensive Organizational Analysis' },
-        { title: 'Full Operational Support' },
-        { title: 'Elite Strategic Planning' },
-        { title: 'Comprehensive Risk Management' },
-        { title: 'Bespoke Financial Advisory' },
-        { title: 'Executive Leadership Development' },
+        { title: 'Yes' }, // Business Analysis
+        { title: 'Yes' }, // Operational Support
+        { title: 'Yes' }, // Strategic Planning
+        { title: 'Yes' }, // Risk Management
+        { title: 'Yes' }, // Financial Advisory
+        { title: 'Yes' }, // Leadership Training
       ],
       callToAction: {
         text: 'Achieve Operational Excellence',
@@ -1001,7 +1002,6 @@ export const comparisonData: ComparisonProps = {
     },
   ],
 };
-
 
 
 // Stats
