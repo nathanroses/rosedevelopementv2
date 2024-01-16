@@ -45,6 +45,7 @@ import {
   StatsProps,
   TeamProps,
   TestimonialProps,
+  CaseStudiesProps,
 } from './types';
 
 //Import of Images
@@ -1349,11 +1350,7 @@ export const footerData2: FooterProps = {
 };
 
 export const caseStudiesData: CaseStudiesProps = {
-  header: {
-    title: "Diverse Projects, Tailored Solutions",
-    subtitle: 'Explore our portfolio of impactful case studies.',
-  },
-  columns: [
+  caseStudies: [
     {
       title: 'Project Scope',
       items: [

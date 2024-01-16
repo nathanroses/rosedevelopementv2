@@ -1,4 +1,4 @@
-import Image from 'next/image';
+
 import { TestimonialsProps } from '~/shared/types';
 
 const Testimonials = ({ testimonials }: TestimonialsProps) => {
@@ -12,13 +12,7 @@ const Testimonials = ({ testimonials }: TestimonialsProps) => {
               <div className="mt-4 font-semibold">{testimonial.name}</div>
               {testimonial.image && (
                 <div className="mt-4">
-                  <Image
-                    src={testimonial.image.src}
-                    alt={testimonial.image.alt}
-                    width={100}  // Adjust size as needed
-                    height={100} // Adjust size as needed
-                    className="rounded-full"
-                  />
+              
                 </div>
               )}
             </div>
