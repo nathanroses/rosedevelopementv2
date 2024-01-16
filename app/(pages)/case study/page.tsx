@@ -13,7 +13,7 @@ const CaseStudiesPage = () => {
   return (
     <>
       <CaseStudies {...caseStudiesData} />
-      <Testimonials {...testimonialData} /> // Corrected the import name
+      <Testimonials {...testimonialData}>{/* Corrected the import name */}</Testimonials>
       <FAQs {...faqsData} />
     </>
   );
