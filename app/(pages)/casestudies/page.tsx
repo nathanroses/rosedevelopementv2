@@ -12,7 +12,6 @@ export const metadata: Metadata = {
 const CaseStudiesPage = () => {
   return (
     <>
-      <CaseStudies {...caseStudiesData} />
       <Testimonials {...testimonialData}>{/* Corrected the import name */}</Testimonials>
       <FAQs {...faqsData} />
     </>
