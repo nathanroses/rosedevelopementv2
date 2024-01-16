@@ -31,6 +31,5 @@ module.exports = {
     ],
   },
 
-  // Enable the experimental feature that allows access to the app directory
-  experimental: { appDir: true },
+  // Removed experimental feature
 };

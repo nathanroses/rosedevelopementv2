@@ -1,96 +1,58 @@
 # Terms and Conditions
 
-_Last updated_: March 14, 2023
+_Last updated_: [January 16, 2024]
 
-Please review these terms and conditions meticulously before utilizing our Service.
+Welcome to Rose Development LLC. These Terms and Conditions outline the rules and regulations for the use of our website and services, including website and app development.
 
-## Interpretation and Definitions
+## 1. Introduction
+- Company: Rose Development LLC, located at 8 The Green, Dover, Delaware, United States.
+- Services: We specialize in custom website and app development, AI solutions, and technical consultancy.
+- Acceptance: By accessing our website and using our services, you agree to comply with these Terms and Conditions.
 
-### Interpretation
+## 2. User Registration and Account Management
+- Users may be required to register to access certain services.
+- Responsibility for maintaining the confidentiality of account information rests with the user.
+- We reserve the right to terminate accounts for non-compliance with our Terms.
 
-Words with the initial letter capitalized within this document have definitions provided under the following conditions. These definitions maintain their meaning regardless of whether they appear in singular or plural form.
+## 3. Intellectual Property Rights
+- All content on our website and within our services, including text, graphics, logos, and software, is the property of Rose Development LLC.
+- Users may not use our intellectual property without our explicit consent.
 
-### Definitions
+## 4. User-Generated Content
+- Users may create or upload content in using our services.
+- Users retain ownership of their content, but grant Rose Development LLC a license to use, modify, and display the content as part of our service.
 
-For these Terms and Conditions:
+## 5. Acceptable Use Policy
+- Users must not misuse our services in any way that is illegal, harmful, or fraudulent.
+- Prohibited activities include spreading malware, violating intellectual property rights, and engaging in spamming activities.
 
-- **Affiliate** denotes an entity that controls, is controlled by, or is under common control with a party, where "control" signifies ownership of 50% or more of the shares or other equity interests.
+## 6. Payment Terms
+- Detailed information on the payment for services, including any recurring charges, taxes, and available payment methods.
+- We reserve the right to change prices and will provide notice of any such changes.
 
-- **Country** pertains to: California, United States.
+## 7. Confidentiality
+- We maintain the confidentiality of your information and only use it as necessary to provide our services.
 
-- **Company** (also referenced as "We", "Us", or "Our") refers to Rose Development LLC.
+## 8. Limitation of Liability
+- Rose Development LLC is not liable for any indirect, incidental, or consequential damages arising from the use of our services.
 
-- **Device** is any mechanism, such as a computer, mobile phone, or tablet, that can access the Service.
+## 9. Termination
+- We reserve the right to terminate or suspend access to our services for any reason, including breach of these Terms.
 
-- **Service** denotes the Website.
+## 10. Governing Law
+- These Terms are governed by and construed in accordance with the laws of Delaware, United States.
 
-- **Terms and Conditions** (or "Terms") embody the complete agreement between You and the Company concerning the use of the Service.
+## 11. Dispute Resolution
+- Any disputes arising from the use of our services will be resolved through arbitration, in accordance with the laws of Delaware.
 
-- **Third-party Social Media Service** means any service or content provided by a third party that may be displayed or made available by the Service.
+## 12. Changes to Terms and Conditions
+- We reserve the right to modify these Terms at any time and will provide notice of any significant changes.
 
-- **Website** is managed by Rose Development LLC.
+## 13. Contact Us
+- For any questions about these Terms, please contact us at support@rosedevelopement.org.
 
-- **You** signifies the individual using the Service or the entity they are representing.
+By using our website and services, you acknowledge that you have read and understand these Terms and Conditions and agree to be bound by them.
 
-## Acknowledgment
-
-These Terms and Conditions oversee the use of this Service and the agreement between You and the Company. They detail the rights and obligations of all users concerning the Service.
-
-By accessing or using the Service, you concur to adhere to these Terms and Conditions. If you do not accept any part of these Terms, you may not access the Service.
-
-You assert that you are over the age of 18. The Company does not cater to those under 18.
-
-Your use of the Service is also subject to your acceptance of the Company's Privacy Policy, which delineates our procedures on the collection, use, and disclosure of your personal information.
-
-## Links to Other Websites
-
-Our Service may contain links to third-party sites or services that are not governed by the Company.
-
-The Company is not responsible for the content, policies, or practices of any third-party sites or services. We urge you to review the terms and privacy policies of any third-party sites you visit.
-
-## Termination
-
-We reserve the right to suspend or terminate your access without notice or liability for any reason, including breaches of these Terms.
-
-## Limitation of Liability
-
-Despite any potential damages, the entire liability of the Company under this agreement shall be limited to the amount you have paid through the Service or 100 USD if no purchase was made.
-
-## "AS IS" and "AS AVAILABLE" Disclaimer
-
-The Service is offered "AS IS" and "AS AVAILABLE", inclusive of all faults and without any warranties. The Company and its affiliates disclaim all warranties related to the Service to the greatest extent enforceable under applicable law.
-
-## Governing Law
-
-The laws of the Country will govern this agreement and your use of the Service.
-
-## Disputes Resolution
-
-Should you have concerns or disputes about the Service, kindly contact the Company to resolve them informally.
-
-## For European Union (EU) Users
-
-If you are an EU consumer, you will benefit from any mandatory provisions of the law in your country of residence.
-
-## United States Legal Compliance
-
-You confirm that (i) you are not in a country subject to a U.S. government embargo or designated as a "terrorist supporting" country, and (ii) you are not on any U.S. government list of restricted parties.
-
-## Severability and Waiver
-
-### Severability
-
-Should any provision of these Terms be deemed unenforceable, such provision will be amended to achieve its objectives under the law, and the other provisions will remain effective.
-
-### Waiver
-
-Failure to exercise a right or enforce an obligation under these Terms won't affect our ability to exercise or enforce them in the future.
-
-## Changes to These Terms and Conditions
-
-We reserve the right to modify or update these Terms at our discretion. If significant changes are made, we will notify you in advance.
-
-By continuing to use our Service after changes take effect, you agree to be bound by the revised terms.
 
 ## Contact Us
 

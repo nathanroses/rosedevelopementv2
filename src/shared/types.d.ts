@@ -273,3 +273,24 @@ interface WindowSize {
   width: number;
   height: number;
 }
+
+interface CaseStudy {
+  title: string;
+  summary: string;
+  detailedLink: string; // URL to the detailed case study page
+}
+
+interface CaseStudiesProps {
+  caseStudies: Array<CaseStudy>;
+}
+
+interface Testimonial {
+  name: string;
+  comment: string;
+  company?: string;
+  image?: Image; // Using the existing Image type from your types
+}
+
+interface TestimonialsProps {
+  testimonials: Array<Testimonial>;
+}

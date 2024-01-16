@@ -90,16 +90,16 @@ export const headerData: HeaderProps = {
       icon: IconChevronDown,
       links: [
         {
-          label: 'About us',
+          label: 'Our Story',
           href: '/about',
         },
         {
-          label: 'Plans',
+          label: 'Pricing',
           href: '/pricing',
         },
         {
-          label: 'Terms & Conditions',
-          href: '/terms',
+          label: 'Case Studies',
+          href: '/casestudies',
         },
       ],
     },
@@ -1346,4 +1346,60 @@ export const footerData2: FooterProps = {
     { label: 'RSS', icon: IconRss, href: 'https://rss.com/' },
   ],
 
+};
+
+export const caseStudiesData: CaseStudiesProps = {
+  header: {
+    title: "Diverse Projects, Tailored Solutions",
+    subtitle: 'Explore our portfolio of impactful case studies.',
+  },
+  columns: [
+    {
+      title: 'Project Scope',
+      items: [
+        { title: 'Startup Projects' },
+        { title: 'Mid-size Business Projects' },
+        { title: 'Large-scale Enterprise Projects' },
+      ],
+    },
+    {
+      title: 'Startup Successes',
+      items: [
+        { title: 'E-commerce Website Revamp' },
+        { title: 'Mobile App for Local Delivery Service' },
+        { title: 'Digital Marketing Strategy for Online Retailer' },
+      ],
+      callToAction: {
+        text: 'Read More',
+        href: '/case-studies/startup',
+        btnType: 'primary',
+      },
+    },
+    {
+      title: 'Growth & Expansion',
+      items: [
+        { title: 'CRM System Development for Mid-size Company' },
+        { title: 'AI Integration for Customer Service' },
+        { title: 'Brand Redesign and Online Presence Overhaul' },
+      ],
+      callToAction: {
+        text: 'Discover Details',
+        href: '/case-studies/mid-size',
+        btnType: 'primary',
+      },
+    },
+    {
+      title: 'Enterprise Innovations',
+      items: [
+        { title: 'Large-scale Custom Software Development' },
+        { title: 'Advanced Data Analytics Platform' },
+        { title: 'Nationwide IT Infrastructure Modernization' },
+      ],
+      callToAction: {
+        text: 'Explore Case Studies',
+        href: '/case-studies/enterprise',
+        btnType: 'primary',
+      },
+    },
+  ],
 };
