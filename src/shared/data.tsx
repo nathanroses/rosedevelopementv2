@@ -1,6 +1,5 @@
 import {
   IconArrowDown,
-  IconArrowsRightLeft,
   IconBrandFacebook,
   IconBrandInstagram,
   IconBrandLinkedin,
@@ -61,10 +60,9 @@ import SilverBar from '~/assets/images/silverbar.png';
 import ProfileOne from '~/assets/images/ProfileOne.png';
 import ProfileTwo from '~/assets/images/ProfileTwo.png';
 import ProfileThree from '~/assets/images/ProfileThree.png';
-import TiceLogo from '~/assets/images/tice.png';
 import TleLogo from '~/assets/images/tle.png';
 import MochaLogo from '~/assets/images/mocha.png';
-import AirtecLogo from '~/assets/images/airtec.png';
+import TstyleLogo from '~/assets/images/tstyle.png';
 import kaws1 from '~/assets/images/kaws1.png';
 import kaws2 from '~/assets/images/kaws2.png';
 import kaws3 from '~/assets/images/kaws3.png';
@@ -75,7 +73,7 @@ import kaws4 from '~/assets/images/kaws4.png';
 export const announcementData: AnnouncementProps = {
   title: 'NEW',
   callToAction: {
-    text: 'Q1 Update: New partnership boosts your success. Experience precision and performance »',
+    text: 'Q1 Update: Code Equity is out now experience precision and performance »',
     href: 'https://nextjs.org/docs/app',
   },
   callToAction2: {
@@ -96,12 +94,8 @@ export const headerData: HeaderProps = {
           href: '/about',
         },
         {
-          label: 'Pricing',
+          label: 'Products',
           href: '/pricing',
-        },
-        {
-          label: 'Privacy Policy',
-          href: '/privacy',
         },
         {
           label: 'Terms & Conditions',
@@ -185,25 +179,20 @@ export const hero2Data: HeroProps = {
 export const socialProofData: SocialProofProps = {
   images: [
     {
-      link: 'https://ticeservicesllc.com/',
-      src: TiceLogo,
-      alt: 'Tice Services',
-    },
-    {
-      link: 'https://www.airtec-usa.com/',
-      src: AirtecLogo,
-      alt: 'Airtec',
+      link: 'https://quil-orpin.vercel.app/',
+      src: MochaLogo,
+      alt: 'Code Equity',
     },
     {
       link: 'https://theleadingedge-production.up.railway.app/',
       src: TleLogo,
       alt: 'The Leading Edge',
+    },   {
+      link: 'https://theleadingedge-production.up.railway.app/',
+      src: TstyleLogo,
+      alt: 'The Leading Edge',
     },
-    {
-      link: 'https://quil-orpin.vercel.app/',
-      src: MochaLogo,
-      alt: 'Code Equity',
-    },
+    
   ],
 };
 
