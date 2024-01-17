@@ -52,7 +52,7 @@ import contentOne from '~/assets/images/iphone.png';
 import contentTwo from '~/assets/images/content3.png';
 import heroImg from '~/assets/images/JET.png';
 import NycstockImg from '~/assets/images/nycstock.png';
-import gasImg from '~/assets/images/box.png'; 
+import gasImg from '~/assets/images/box 3.png'; 
 import GreenBar from '~/assets/images/greenbar.png';
 import GoldBar from '~/assets/images/goldbar.png';
 import SilverBar from '~/assets/images/silverbar.png';
@@ -726,15 +726,11 @@ export const teamData: TeamProps = {
         alt: 'Cindy Belcher',
       },
       items: [
-        {
-          title: 'Know more on Twitter',
-          icon: IconBrandTwitter,
-          href: '#',
-        },
+
         {
           title: 'Know more on Linkedin',
           icon: IconBrandLinkedin,
-          href: '#',
+          href: 'https://www.linkedin.com/in/nathan-rose-8a4a90170/',
         },
         {
           title: 'Contact by email',
@@ -752,16 +748,6 @@ export const teamData: TeamProps = {
       },
       items: [
         {
-          title: 'Know more on Twitter',
-          icon: IconBrandTwitter,
-          href: '#',
-        },
-        {
-          title: 'Know more on Linkedin',
-          icon: IconBrandLinkedin,
-          href: '#',
-        },
-        {
           title: 'Contact by email',
           icon: IconMail,
           href: '#',
@@ -777,16 +763,6 @@ export const teamData: TeamProps = {
       },
       items: [
         {
-          title: 'Know more on Twitter',
-          icon: IconBrandTwitter,
-          href: '#',
-        },
-        {
-          title: 'Know more on Linkedin',
-          icon: IconBrandLinkedin,
-          href: '#',
-        },
-        {
           title: 'Contact by email',
           icon: IconMail,
           href: '#',
@@ -801,16 +777,6 @@ export const teamData: TeamProps = {
         alt: 'Bella Chase',
       },
       items: [
-        {
-          title: 'Know more on Twitter',
-          icon: IconBrandTwitter,
-          href: '#',
-        },
-        {
-          title: 'Know more on Linkedin',
-          icon: IconBrandLinkedin,
-          href: '#',
-        },
         {
           title: 'Contact by email',
           icon: IconMail,
