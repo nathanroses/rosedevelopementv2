@@ -294,3 +294,4 @@ interface Testimonial {
 interface TestimonialsProps {
   testimonials: Array<Testimonial>;
 }
+

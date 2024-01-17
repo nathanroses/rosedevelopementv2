@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
 import Testimonials from '~/components/widgets/Testimonials';
-import FAQs from '~/components/widgets/FAQs';
-import { testimonialData, faqsData } from '~/shared/data'; // Corrected the import name
+import { testimonialData, statsData} from '~/shared/data';
+import Stats from '~/components/widgets/Stats';
 
 export const metadata: Metadata = {
   title: 'Case Studies',
@@ -11,8 +11,12 @@ export const metadata: Metadata = {
 const CaseStudiesPage = () => {
   return (
     <>
-      <Testimonials {...testimonialData}>{/* Corrected the import name */}</Testimonials>
-      <FAQs {...faqsData} />
+      <h1 style={{ fontSize: '40pt', fontWeight: 'bold', padding: '25px', textAlign: 'center', }}>Case Studies</h1>
+     
+      
+      <Stats {...statsData} />
+      <Testimonials {...testimonialData} />
+    
     </>
   );
 };

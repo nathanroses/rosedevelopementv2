@@ -136,7 +136,6 @@ export const heroData: HeroProps = {
     text: 'Our Client List',
     href: '/blog',
     icon: IconStar,
-    targetBlank: true,
     btnType: 'primary',
   },
   callToAction2: {
@@ -269,43 +268,45 @@ export const faqsData2: FAQsProps = {
 export const faqs3Data: FAQsProps = {
   header: {
     title: 'Pricing FAQs',
-    subtitle: 'Seeking further details? Let’s address your queries.',
-    // highlight: 'FAQS',
+    subtitle: 'Discover how our pricing aligns with your tech needs.',
     position: 'left',
   },
   items: [
     {
-      title: 'Which rose development plan suits my needs?',
-      description: `Each plan is tailored to cater to different scales of rose cultivation. Whether you're a hobbyist or a commercial grower, we have a plan that fits. Assess your variety interest, support requirements, and scale to choose the perfect plan.`,
+      title: 'Why does pricing start at $500+',
+      description: `Our pricing reflects the advanced, customized nature of our services. Each project, whether a website, app, or AI integration, is tailored to meet unique client requirements, utilizing state-of-the-art technology and expert development. This ensures exceptional quality and value in every solution we deliver.`,
     },
     {
-      title: 'What payment methods are accepted?',
-      description: `We accept a range of payment options for your convenience, including all major credit cards, bank transfers, and online payment platforms. Secure and flexible payment is part of our commitment to you.`,
+      title: 'How is the cost determined for each project?',
+      description: `Costs are calculated based on the complexity, scope, and specific resources required for your project. We consider factors like design intricacies, development time, AI integration complexity, and any unique features you need. This personalized approach ensures you pay for exactly what your project requires.`,
     },
     {
-      title: 'How can I upgrade or downgrade my plan?',
-      description: `Adjusting your plan is simple and can be managed directly from your account dashboard. If you need personalized assistance, our customer service team is readily available to guide you through the process.`,
+      title: 'Can I get a detailed quote for my specific project?',
+      description: `Absolutely. We provide detailed quotes after understanding your project requirements. Our team conducts a thorough analysis to ensure the quote encompasses all aspects of development, integration, and deployment tailored to your needs.`,
     },
     {
-      title: 'What happens at the end of my billing cycle?',
-      description: `There are no surprises at the end of your billing cycle. We'll send a reminder before your plan renews. You'll have the option to continue with us, change your plan, or, if you must, cancel your services.`,
+      title: 'How does Rose Development accommodate future integrations?',
+      description: `Our solutions are designed with scalability and flexibility in mind. We can seamlessly integrate future technologies or updates into your existing systems, ensuring your digital assets remain cutting-edge and efficient.`,
     },
     {
-      title: 'Is it possible to integrate my existing data?',
-      description: `Absolutely! Our platform supports data integration from various sources. We're here to ensure a seamless transition, so you can carry on with your rose cultivation without missing a beat.`,
+      title: 'What is the cancellation policy for ongoing projects?',
+      description: `Our cancellation policy is client-friendly. While we strive for your complete satisfaction, you can cancel your service if necessary. The terms of cancellation, including any applicable fees or notice periods, are clearly outlined in our service agreement.`,
     },
     {
-      title: 'What is the cancellation policy?',
-      description: `Should you decide to cancel, you can do so at any time. Our policy ensures that you're not bound by long-term commitments. We believe in the quality of our service and hope you'll stay with us for the value it adds.`,
+      title: 'Is there flexibility in payment methods for high-value projects?',
+      description: `Yes, we offer flexible payment options for our high-value projects. This includes staged payments, milestone-based billing, or other arrangements to suit your financial planning. Our aim is to make the payment process as convenient and accommodating as possible.`,
     },
   ],
   callToAction: {
-    text: 'Contact us',
+    text: 'Get Your Custom Quote',
     href: '/contact',
     btnText: 'uppercase',
     btnType: 'primary',
   },
 };
+
+
+
 
 // FAQS4 data
 export const faqs4Data: FAQsProps = {
@@ -963,7 +964,7 @@ export const comparisonData: ComparisonProps = {
         { title: 'No' },  // Leadership Training
       ],
       callToAction: {
-        text: 'Explore Startup Plans',
+        text: 'Get Started',
         href: '/basic-plan',
         btnType: 'primary',
       },
@@ -995,7 +996,7 @@ export const comparisonData: ComparisonProps = {
         { title: 'Yes' }, // Leadership Training
       ],
       callToAction: {
-        text: 'Achieve Operational Excellence',
+        text: 'Operational Excellence',
         href: '/premium-plan',
         btnType: 'primary',
       },
@@ -1350,3 +1351,25 @@ export const footerData2: FooterProps = {
   ],
 
 };
+
+
+export const socialproofData: SocialProofProps = {
+  images: [
+    {
+      link: 'https://code-equity.com/',
+      src: MochaLogo,
+      alt: 'Code Equity',
+    },
+    {
+      link: 'https://theleadingedge-production.up.railway.app/',
+      src: TleLogo,
+      alt: 'The Leading Edge',
+    },   {
+      link: 'https://hilink-pp2xzvkkr-nathanroses-projects.vercel.app',
+      src: TstyleLogo,
+      alt: 'The Leading Edge',
+    },
+    
+  ],
+};
+
