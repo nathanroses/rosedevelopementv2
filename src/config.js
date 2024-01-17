@@ -6,5 +6,5 @@ module.exports.SITE = {
   trailingSlash: false,
 
   title: 'Rose Development',
-  description: 'Rose Development is a premier conglomerate, expertly crafting the futures leading companies through innovative strategies and unparalleled expertise.',
+  description: 'Rose Development is Expertly shaping the future with AI, web and app development, and strategic IT solutions. Your partner for technological innovation and success.',
 };
