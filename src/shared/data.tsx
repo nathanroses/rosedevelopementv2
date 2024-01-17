@@ -563,7 +563,7 @@ export const featuresData2: FeaturesProps = {
       },
     },
     {
-      title: 'Get help',
+      title: 'Call our team',
       description: 'Speak to our team today',
       icon: IconHeadset,
       link: {
@@ -1030,12 +1030,12 @@ export const statsData: StatsProps = {
 // Contact data
 export const contactData: ContactProps = {
   header: {
-    title: 'Connect with Us',
-    subtitle: 'At Rose Development, we are ready to assist you',
-    highlight: 'Contact',
+    title: 'Let’s Shape the Future Together',
+    subtitle: 'Your Vision, Our Innovation',
+    highlight: 'Get in Touch',
   },
   content:
-    'Rose Development is dedicated to bringing your visions to life with innovative solutions and exceptional service.',
+    'Join us at Rose Development, where pioneering ideas meet exceptional execution. Our team is excited to collaborate with you, turning your digital dreams into reality with our bespoke website and AI solutions. Connect with us today and take the first step towards a transformative digital journey.',
   items: [
     {
       title: 'Our Address',
@@ -1111,7 +1111,7 @@ export const contact2Data: ContactProps = {
   form: {
     title: 'Ready to Get Started?',
     description:
-      'Join us on a journey where your ideas take digital form. Rose Development is where your vision becomes reality.',
+      'Join us on a journey where your ideas take digital form, where we will turn your vision becomes reality.',
     inputs: [
       {
         type: 'text',
@@ -1134,36 +1134,39 @@ export const contact2Data: ContactProps = {
       },
     ],
     radioBtns: {
-      label: 'What is the reason for your contact?',
+      label: 'Pick your service or contact support below',
       radios: [
         {
-          label: 'General inquiries',
+          label: 'Website development',
         },
         {
-          label: 'Technical help',
+          label: 'App development',
         },
         {
-          label: 'Claims',
+          label: 'Ai Soultions',
         },
         {
-          label: 'Others',
+          label: 'Partnership',
+        },
+        {
+          label: 'Support',
         },
       ],
     },
     textarea: {
       cols: 30,
       rows: 5,
-      label: 'How can we help you?',
+      label: 'Let us get to work for you!',
       name: 'textarea',
       placeholder: 'Write your message...',
     },
     checkboxes: [
       {
-        label: 'Have you read our privacy policy?',
+        label: 'Agree to our Terms and Conditions',
         value: '',
       },
       {
-        label: 'Do you want to receive monthly updates by email?',
+        label: 'Subscribe to our Email List',
         value: '',
       },
     ],

@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 
-import CaseStudies from '~/components/widgets/CaseStudies';
 import Testimonials from '~/components/widgets/Testimonials';
 import FAQs from '~/components/widgets/FAQs';
 import { testimonialData, faqsData } from '~/shared/data'; // Corrected the import name
