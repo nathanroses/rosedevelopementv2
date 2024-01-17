@@ -11,7 +11,7 @@ const Announcement = () => {
         <a
           href={callToAction.href}
           target="_blank"
-          rel="noreferrer noopened"
+          rel="noopener noreferrer"
           className="cursor-pointer text-gray-100 hover:underline"
         >
           {callToAction.icon && <callToAction.icon className="mr-1 -ml-1.5 h-5 w-5" />} {callToAction.text}
@@ -21,16 +21,12 @@ const Announcement = () => {
         <a
           href={callToAction2.href}
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
           className="float-right"
           title={callToAction2.text}
         >
-          <img
-            src="https://img.shields.io/twitter/url/https/twitter.com/onwidget.svg?style=social&amp;label=Follow%20%40Rose"
-            alt="Follow @rosedevelopement"
-            width="125"
-            height="20"
-          />
+          {/* Ensure the path to the image is correct */}
+          
         </a>
       )}
     </div>

@@ -853,7 +853,7 @@ export const pricingData: PricingProps = {
       ],
       callToAction: {
         text: '$500+',
-        href: '/',
+        href: '/contact',
       },
       hasRibbon: false,
     },
@@ -868,7 +868,7 @@ export const pricingData: PricingProps = {
       ],
       callToAction: {
         text: '$1000+',
-        href: '/',
+        href: '/contact',
       },
       hasRibbon: true,
       ribbonTitle: 'Trending',
@@ -883,8 +883,8 @@ export const pricingData: PricingProps = {
         'Long-term tech partnership for continuous innovation and growth',
       ],
       callToAction: {
-        text: '$5000+',
-        href: '/',
+        text: '$2500+',
+        href: '/contact',
       },
       hasRibbon: false,
     },
