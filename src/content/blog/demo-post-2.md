@@ -1,9 +1,9 @@
 ---
-publishDate: 'January 16, 2024'
-title: 'The Leading Edge: Cutting Tool Distrubitor'
+publishDate: 'January 12, 2024'
+title: 'Airtec: Manufacturing Tire Service'
 description: 'Discover the groundbreaking project set to redefine the technological landscape.'
 excerpt: 'Embark on a journey with us into the future of tech, where Code Equity is reshaping how we think about technology and innovation.'
-image: '/cp2.jpg'
+image: '/cp1.jpg'
 tags: [cutting tools, innovation, future technology, manufacturing]
 
 ---

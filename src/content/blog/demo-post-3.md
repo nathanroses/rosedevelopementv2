@@ -1,9 +1,9 @@
 ---
 publishDate: 'January 1, 2024'
-title: 'Code Equity: The Future of Tech Innovation'
+title: 'The Leading Edge: Cutting Tool Distrubitor'
 description: 'Discover the groundbreaking project set to redefine the technological landscape.'
 excerpt: 'Embark on a journey with us into the future of tech, where Code Equity is reshaping how we think about technology and innovation.'
-image: '/cp2.jpg' 
+image: '/cp3.jpg' 
 tags: [code equity, innovation, future technology, confidential project]
 
 ---
