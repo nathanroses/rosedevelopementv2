@@ -3,7 +3,6 @@ import {
   IconBrandFacebook,
   IconBrandInstagram,
   IconBrandLinkedin,
-  IconBrandTailwind,
   IconBrandTwitter,
   IconBulb,
   IconCheck,
@@ -580,11 +579,6 @@ export const featuresData3: FeaturesProps = {
     title: 'Services',
   },
   items: [
-    {
-      title: 'Advanced Tech Leadership',
-      description: 'Guiding businesses with cutting-edge technological insights, we align with emerging tech trends and drive innovation in every sector we touch.',
-      icon: IconBrandTailwind,
-    },
     {
       title: 'Tech-Driven Operational Excellence',
       description: 'Employing advanced technology to optimize operations, our approach ensures peak performance through automation, AI integration, and data analytics.',
