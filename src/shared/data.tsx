@@ -180,11 +180,7 @@ export const socialProofData: SocialProofProps = {
       link: 'https://theleadingedge-production.up.railway.app/',
       src: TleLogo,
       alt: 'The Leading Edge',
-    },   {
-      link: 'https://hilink-pp2xzvkkr-nathanroses-projects.vercel.app',
-      src: TstyleLogo,
-      alt: 'The Leading Edge',
-    },
+    }, 
     
   ],
 };
