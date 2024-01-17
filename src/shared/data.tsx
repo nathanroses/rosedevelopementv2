@@ -27,6 +27,8 @@ import {
   IconBrain,
   IconDeviceLaptop,
   IconAdjustments,
+  IconThumbDown,
+  IconThumbUp,
 } from '@tabler/icons-react';
 import {
   AnnouncementProps,
@@ -231,30 +233,28 @@ export const faqsData2: FAQsProps = {
   },
   items: [
     {
-      title: 'Which industries are within your area of expertise?',
-      description: `We navigate a vast spectrum of sectors, ensuring each business thrives under our specialized guidance.`,
+      title: 'How will my business benefit from our services?',
+      description: `By choosing us, you gain a tech partner who listens and adapts to your needs, ensuring your digital presence is as dynamic and innovative as your business.`,
     },
     {
-      title: 'How do you set yourselves apart from other management firms?',
-      description: `Rose Development transcends traditional management. Our holistic approach and dedication ensure your business is always poised for success.      `,
+      title: 'What customer experience can you expect?',
+      description: `Expect a collaboration that values your vision, with personalized support and solutions designed to enhance your business's efficiency and market appeal.`,
     },
     {
-      title: "Can businesses anticipate measurable results?",
-      description: `Indeed. Our partners consistently witness unparalleled growth, operational finesse, and leadership in their respective markets.
-
-      `,
+      title: 'How do you ensure my project is a success?',
+      description: `Your success is our priority. We leverage advanced technology to deliver measurable results, ensuring your project stands out and achieves its objectives.`,
     },
     {
-      title: "What's the journey like when partnering with you?",
-      description: `The voyage begins with an in-depth business analysis. From there, we tailor strategies and provide unwavering support, sculpting a roadmap to success.`,
+      title: 'In what ways do you adapt to my industry needs?',
+      description: `We conduct thorough market analysis and apply industry-specific insights to deliver solutions that not only meet but exceed your sector's demands.`,
     },
     {
-      title: 'Is global expansion on your radar?',
-      description: `Certainly. Our expansive global network and adeptness at navigating diverse market dynamics make us the ideal ally for international endeavors.`,
+      title: 'Can you help my business stay ahead of tech trends?',
+      description: `Absolutely. With our finger on the pulse of tech innovation, we provide you with cutting-edge solutions that keep you at the forefront of your industry.`,
     },
     {
-      title: 'How do you prioritize sustainability and ethical practices?',
-      description: `Creating success that benefits the larger ecosystem is intrinsic to our ethos. We champion eco-friendly initiatives and advocate for a conscientious business approach.`,
+      title: 'How does partnering contribute to my business growth?',
+      description: `We focus on creating scalable solutions that grow with your business, ensuring long-term success and a robust digital foundation for expansion.`,
     },
   ],
 };
@@ -893,73 +893,73 @@ export const pricingData: PricingProps = {
 
 
 export const comparisonData: ComparisonProps = {
-  header: {
-    title: "Service Plans Tailored for You",
-    subtitle: 'Select the perfect plan for your business needs.',
-  },
-  columns: [
-    {
-      title: 'Service Features',
-      items: [
-        { title: 'Business Analysis' },
-        { title: 'Operational Support' },
-        { title: 'Strategic Planning' },
-        { title: 'Risk Management' },
-        { title: 'Financial Advisory' },
-        { title: 'Leadership Training' },
-      ],
+    header: {
+      title: "Service Plans Tailored for You",
+      subtitle: 'Select the perfect plan for your business needs.',
     },
-    {
-      title: 'Startup Essentials',
-      items: [
-        { title: 'Yes' }, // Business Analysis
-        { title: 'Yes' }, // Operational Support
-        { title: 'Yes' }, // Strategic Planning
-        { title: 'No' },  // Risk Management
-        { title: 'No' },  // Financial Advisory
-        { title: 'No' },  // Leadership Training
-      ],
-      callToAction: {
-        text: 'Get Started',
-        href: '/basic-plan',
-        btnType: 'primary',
+    columns: [
+      {
+        title: 'Service Features',
+        items: [
+          { title: 'Web Development' },
+          { title: 'AI Analytics' },
+          { title: 'IT Strategy' },
+          { title: 'Tech Innovation' },
+          { title: 'Operational Tech' },
+          { title: 'Continuous Support' },
+        ],
       },
-    },
-    {
-      title: 'Growth & Development',
-      items: [
-        { title: 'Yes' }, // Business Analysis
-        { title: 'Yes' }, // Operational Support
-        { title: 'Yes' }, // Strategic Planning
-        { title: 'Yes' }, // Risk Management
-        { title: 'Yes' }, // Financial Advisory
-        { title: 'No' },  // Leadership Training
-      ],
-      callToAction: {
-        text: 'Grow Your Business',
-        href: '/standard-plan',
-        btnType: 'primary',
+      {
+        title: 'Startup Essentials',
+        items: [
+          { title: 'Yes' }, // Web Development
+          { title: 'No' },  // AI Analytics
+          { title: 'Yes' }, // IT Strategy
+          { title: 'No' },  // Tech Innovation
+          { title: 'No' },  // Operational Tech
+          { title: 'Yes' }, // Continuous Support
+        ],
+        callToAction: {
+          text: 'Get Started',
+          href: '/contact',
+          btnType: 'primary',
+        },
       },
-    },
-    {
-      title: 'Corporate Excellence',
-      items: [
-        { title: 'Yes' }, // Business Analysis
-        { title: 'Yes' }, // Operational Support
-        { title: 'Yes' }, // Strategic Planning
-        { title: 'Yes' }, // Risk Management
-        { title: 'Yes' }, // Financial Advisory
-        { title: 'Yes' }, // Leadership Training
-      ],
-      callToAction: {
-        text: 'Operational Excellence',
-        href: '/premium-plan',
-        btnType: 'primary',
+      {
+        title: 'Growth & Development',
+        items: [
+          { title: 'Yes' }, // Web Development
+          { title: 'Yes' }, // AI Analytics
+          { title: 'Yes' }, // IT Strategy
+          { title: 'Yes' }, // Tech Innovation
+          { title: 'No' },  // Operational Tech
+          { title: 'Yes' }, // Continuous Support
+        ],
+        callToAction: {
+          text: 'Grow Your Business',
+          href: '/contact',
+          btnType: 'primary',
+        },
       },
-    },
-  ],
-};
-
+      {
+        title: 'Corporate Excellence',
+        items: [
+          { title: 'Yes' }, // Web Development
+          { title: 'Yes' }, // AI Analytics
+          { title: 'Yes' }, // IT Strategy
+          { title: 'Yes' }, // Tech Innovation
+          { title: 'Yes' }, // Operational Tech
+          { title: 'Yes' }, // Continuous Support
+        ],
+        callToAction: {
+          text: 'Operational Excellence',
+          href: '/contact',
+          btnType: 'primary',
+        },
+      },
+    ],
+  };
+  
 
 // Stats
 export const statsData: StatsProps = {
