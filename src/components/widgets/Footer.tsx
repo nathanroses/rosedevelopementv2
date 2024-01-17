@@ -34,13 +34,13 @@ const Footer = () => {
           </div>
           {columns.map(({ title, links }, index) => (
             <div key={`item-column-${index}`} className="col-span-6 md:col-span-3 lg:col-span-2">
-              <div className="mb-2 font-medium dark:text-gray-300">{title}</div>
+              <div className="mb-2 font-medium dark:text-grey-300">{title}</div>
               <ul className="text-sm">
                 {links &&
                   links.map(({ label, href }, index2) => (
                     <li key={`item-column-link-${index2}`} className="mb-2">
                       <a
-                        className="text-muted transition duration-150 ease-in-out hover:text-gray-700 hover:underline dark:text-gray-400"
+                        className="text-muted transition duration-150 ease-in-out hover:text-gray-700 hover:underline dark:text-grey-400"
                         aria-label={label}
                         href={href}
                       >
@@ -57,7 +57,7 @@ const Footer = () => {
             {socials.map(({ label, icon: Icon, href }, index) => (
               <li key={`item-social-${index}`}>
                 <a
-                  className="text-muted inline-flex items-center rounded-lg p-2.5 text-sm hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-700"
+                  className="text-muted inline-flex items-center rounded-lg p-2.5 text-sm hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-grey-200 dark:text-grey-400 dark:hover:bg-gray-700 dark:focus:ring-gray-700"
                   aria-label={label}
                   href={href}
                 >

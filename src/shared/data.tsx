@@ -63,10 +63,10 @@ import ProfileThree from '~/assets/images/ProfileThree.png';
 import TleLogo from '~/assets/images/tle.png';
 import MochaLogo from '~/assets/images/mocha.png';
 import TstyleLogo from '~/assets/images/tstyle.png';
-import kaws1 from '~/assets/images/kaws1.png';
-import kaws2 from '~/assets/images/kaws2.png';
-import kaws3 from '~/assets/images/kaws3.png';
-import kaws4 from '~/assets/images/kaws4.png';
+import kaws1 from '~/assets/images/1.png';
+import kaws2 from '~/assets/images/2.png';
+import kaws3 from '~/assets/images/3.png';
+import kaws4 from '~/assets/images/4.png'; 
 
 
 // Announcement data
@@ -414,20 +414,20 @@ export const faqs4Data: FAQsProps = {
 export const callToActionData: CallToActionProps = {
   title: 'Rose Development',
   subtitle:
-    'Dive deeper into our portfolio of companies and discover our comprehensive services. Download our brochure to learn more about how we can elevate your business.',
+    'Dive deeper into our portfolio of companies and discover our comprehensive services. We work everyday to elevate you and your buisness.',
   callToAction: {
-    text: 'Download Brochure',
-    href: 'https://img.freepik.com/free-photo/abstract-surface-textures-white-concrete-stone-wall_74190-8189.jpg',
+    text: 'Check our Partner Code Equity',
+    href: 'https://code-equity.com/',
     icon: IconDownload,
   },
   items: [
     {
-      title: 'Download Brochure',
-      description: 'Gain insights into our expansive network of ventures and partnerships.',
+      title: 'Download Catalogue',
+      description: 'We just released our 2024 catalog for webservices. Download it now for free.',
       href: 'https://img.freepik.com/free-photo/abstract-surface-textures-white-concrete-stone-wall_74190-8189.jpg',
     },
     {
-      title: 'Learn more',
+      title: 'Check Out Our Portfolio',
       description: 'Discover our unique approach to fostering businesses.',
       href: '/',
     },
