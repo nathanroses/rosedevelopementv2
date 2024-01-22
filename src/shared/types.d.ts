@@ -230,6 +230,7 @@ interface ComparisonProps {
   columns: Array<Column>;
 }
 
+
 interface StatsProps {
   items: Array<Item>;
 }
