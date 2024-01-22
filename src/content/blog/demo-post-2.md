@@ -1,6 +1,6 @@
 ---
 publishDate: 'January 1, 2024'
-title: 'Airtec: Tire Manufacturing'
+title: 'Airtec: Tire Manufacturing Industry'
 description: 'Discover the groundbreaking project set to redefine the technological landscape.'
 excerpt: 'Embark on a journey with us into the future of tech, where Code Equity is reshaping how we think about technology and innovation.'
 image: '/cp1.jpg' 
