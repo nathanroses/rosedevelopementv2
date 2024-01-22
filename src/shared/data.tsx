@@ -843,7 +843,7 @@ export const pricingData: PricingProps = {
   },
   prices: [
     {
-      title: 'Bespoke Web & App Development',
+      title: 'Launchpad Innovator',
       icon: SilverBar,
       period: 'Ideal for Startups & SMEs',
       texts: [
@@ -858,7 +858,7 @@ export const pricingData: PricingProps = {
       hasRibbon: false,
     },
     {
-      title: 'AI-Driven Business Transformation',
+      title: 'Momentum Builder',
       icon: GoldBar,
       period: 'Perfect for Growing Enterprises',
       texts: [
@@ -874,7 +874,7 @@ export const pricingData: PricingProps = {
       ribbonTitle: 'Trending',
     },
     {
-      title: 'Comprehensive Tech Overhaul',
+      title: 'Corporate Excellence',
       icon: GreenBar,
       period: 'For Established Businesses',
       texts: [
